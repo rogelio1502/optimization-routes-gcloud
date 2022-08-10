@@ -99,8 +99,19 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
     vehicles = []
     drivers = data.get("drivers")
 
-    _limit = len(shipments) / drivers
-    limit = int(_limit + len(shipments) % drivers)
+    auto_limit = data.get("auto_limit")
+    limit_per_driver = data.get("limit_per_driver")
+
+    if auto_limit:
+
+        _limit = len(shipments) / drivers
+        limit = int(_limit + len(shipments) % drivers)
+    elif limit_per_driver:
+
+        limit = limit_per_driver
+    else:
+        raise Exception('"limit_per_driver" or "auto_limit" keys are required')
+
     for driver in range(drivers):
         vehicle = {
             "end_time_windows": [{"end_time": convert_date(time_zone, hours[1])}],

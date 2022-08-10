@@ -16,7 +16,7 @@ for i in range(100):
         "location_y": location_y,
         "location_x": location_x,
     }
-    if i == 2 or i == 3 or i == 9:
+    if i == 2 or i % 3 == 0 or i == 9:
         obj.update(
             {
                 "special": {
@@ -29,8 +29,10 @@ for i in range(100):
 data_for_request = proccess_json_for_gcloud(
     {
         "shipments": deliveries,
-        "drivers": 8,
+        "drivers": 25,
         "cost_per_traveled_hour": 0,
+        # "auto_limit": True,
+        "limit_per_driver": 10,
         "block": 1,
         "depot_location_y": 25.665667776013077,
         "depot_location_x": -100.45060983468106,
