@@ -1,4 +1,5 @@
 from datetime import datetime
+from re import I
 import pytz
 from google.cloud import optimization_v1
 from google.protobuf.json_format import MessageToJson
@@ -138,13 +139,14 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
 
         cost_per_traveled_hour = data.get("cost_per_traveled_hour")
 
-        vehicle.update(
-            {
-                "cost_per_traveled_hour": int(cost_per_traveled_hour)
-                if cost_per_traveled_hour
-                else 0
-            }
-        )
+        if cost_per_traveled_hour:
+            vehicle.update(
+                {
+                    "cost_per_traveled_hour": int(cost_per_traveled_hour)
+                    if cost_per_traveled_hour
+                    else 0
+                }
+            )
 
         vehicle.update(
             {
@@ -156,8 +158,8 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
 
     finished_json = {
         "model": {
-            "global_start_time": f"2022-08-09T08:00:00-{time_zones[time_zone]}",
-            "global_end_time": f"2022-08-09T20:00:00-{time_zones[time_zone]}",
+            "global_start_time": f"{datetime.now().strftime('%Y-%m-%d')}T08:00:00-{time_zones[time_zone]}",
+            "global_end_time": f"{datetime.now().strftime('%Y-%m-%d')}T20:00:00-{time_zones[time_zone]}",
             "shipments": shipments,
             "vehicles": vehicles,
         }

@@ -1,14 +1,19 @@
 import json
 from random import randint
+from marker import make_map, process_info_for_marker
 
 from optimization_routes import call_sync_api, proccess_json_for_gcloud
 
 
-deliveries = []
-for i in range(100):
+coordinates = json.loads(open("./json/enviaflores_production_direcciones.json").read())
 
-    location_y = float(f"25.{str(randint(70, 99))}")
-    location_x = float(f"-100.{str(randint(305, 350))}")
+
+deliveries = []
+
+for i in range(40):
+
+    location_y = float(coordinates[i].get("gm_lattitude"))
+    location_x = float(coordinates[i].get("gm_longitude"))
     order_id = str(randint(90000, 95000))
 
     obj = {
@@ -16,21 +21,15 @@ for i in range(100):
         "location_y": location_y,
         "location_x": location_x,
     }
-    if i == 2 or i % 3 == 0 or i == 9:
-        obj.update(
-            {
-                "special": {
-                    "hour": {"start": "10:00:00", "end": "11:00:00"},
-                },
-            }
-        )
+
     deliveries.append(obj)
+
 
 data_for_request = proccess_json_for_gcloud(
     {
         "shipments": deliveries,
-        "drivers": 25,
-        "cost_per_traveled_hour": 0,
+        "drivers": 4,
+        "cost_per_traveled_hour": 25,
         # "auto_limit": True,
         "limit_per_driver": 10,
         "block": 1,
@@ -39,13 +38,15 @@ data_for_request = proccess_json_for_gcloud(
     }
 )
 
-str_json_response = call_sync_api(json.dumps(data_for_request))
 
+str_json_response = call_sync_api(json.dumps(data_for_request))
+info_for_marker = process_info_for_marker(json.loads(str_json_response), deliveries)
+make_map(info_for_marker)
 # da = dict(json.loads(str_json_response))
 # routes = da.get("routes")
-from datetime import datetime, timedelta
+# from datetime import datetime, timedelta
 
-utc_start_time = "2022-08-09T15:56:20Z"
-utc_start_time_datetime = datetime.strptime(utc_start_time, "%Y-%m-%dT%H:%M:%SZ")
-no_utc_start_time_datetime = utc_start_time_datetime - timedelta(hours=5)
-print(no_utc_start_time_datetime)
+# utc_start_time = "2022-08-09T15:56:20Z"
+# utc_start_time_datetime = datetime.strptime(utc_start_time, "%Y-%m-%dT%H:%M:%SZ")
+# no_utc_start_time_datetime = utc_start_time_datetime - timedelta(hours=5)
+# print(no_utc_start_time_datetime)
