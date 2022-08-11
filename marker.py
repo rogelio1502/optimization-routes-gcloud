@@ -1,13 +1,15 @@
-import json
-from turtle import width
 import folium
 
-colors = ["blue", "white", "yellow", "orange", "rgb(180, 240, 80)"]
+colors = [
+    "#05a49b",
+    "#8277ec",
+    "yellow",
+    "#77ecdc",
+    "rgb(180, 240, 80)",
+]
 
 
 def process_info_for_marker(info: dict, deliveries_locations: list):
-    # print(type(info))
-    # print(info.get("metrics"))
 
     info_for_marker = []
 
@@ -27,11 +29,15 @@ def process_info_for_marker(info: dict, deliveries_locations: list):
                     == i.get("visitLabel"),
                     deliveries_locations,
                 )
+
                 if odd:
 
                     odd = list(odd)
                     x = odd[0].get("location_x")
                     y = odd[0].get("location_y")
+
+                    if odd[0].get("special"):
+                        _visit.update({"special": True})
 
                 _visit.update({"lattitude": y, "longitude": x})
                 _visits.append(_visit)
@@ -41,7 +47,7 @@ def process_info_for_marker(info: dict, deliveries_locations: list):
     return info_for_marker
 
 
-def mark_in_map(map, y, x, tag, color, order=0, main_point=False):
+def mark_in_map(map, y, x, tag, color, order=0, main_point=False, special=False):
     height = "30"
     width = "30"
     color = color
@@ -54,7 +60,7 @@ def mark_in_map(map, y, x, tag, color, order=0, main_point=False):
         text = "Taller"
     div = folium.DivIcon(
         html=(
-            f'<svg height={height} width={width} style="background-color:{color}; border-radius:4px; border: 1px outset black;" >'
+            f'<svg height={height} width={width} style="background-color:{color}; border-radius:16px; border: {"3" if special else "1"}px solid {"red" if special else "black"};" >'
             f"""
             <text x="5" y="10" fill={fill_text}>
                 {f'<tspan x="5" dy="10px" >{text}</tspan>' if main_point else ""}
@@ -68,14 +74,12 @@ def mark_in_map(map, y, x, tag, color, order=0, main_point=False):
     folium.Marker(
         [y, x],
         popup=tag + "\n" + str(order),
-        tooltip=tag,
+        tooltip=str(order),
         icon=div,
     ).add_to(map)
 
 
 def make_map(data: list):
-
-    print(len(data))
 
     my_map = folium.Map(
         location=[25.665667776013077, -100.45060983468106], zoom_start=12
@@ -91,7 +95,7 @@ def make_map(data: list):
     )
 
     for route in data:
-        print(len(route.get("visits")))
+
         c = 0
         for delivery in route.get("visits"):
 
@@ -102,6 +106,7 @@ def make_map(data: list):
                 delivery.get("order_id"),
                 colors[int(route.get("route"))],
                 order=c + 1,
+                special=delivery.get("special"),
             )
             c += 1
 
