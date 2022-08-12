@@ -58,13 +58,14 @@ def mark_in_map(map, y, x, tag, color, order=0, main_point=False, special=False)
         width = "40"
         color = "rgb(255, 63, 80)"
         text = "Taller"
+        print(order)
     div = folium.DivIcon(
         html=(
             f'<svg height={height} width={width} style="background-color:{color}; border-radius:16px; border: {"3" if special else "1"}px solid {"red" if special else "black"};" >'
             f"""
             <text x="5" y="10" fill={fill_text}>
-                {f'<tspan x="5" dy="10px" >{text}</tspan>' if main_point else ""}
-                {f'<tspan x="10" dy="10px" >{order}</tspan>' if order else ""}
+                {f'<tspan x="5" dy="10px" >{text}</tspan>' if main_point else ''}
+                {f'<tspan x="10" dy="10px" >{order}</tspan>' if order else ''}
             </text>
                 
             """
@@ -73,8 +74,8 @@ def mark_in_map(map, y, x, tag, color, order=0, main_point=False, special=False)
     )
     folium.Marker(
         [y, x],
-        popup=tag + "\n" + str(order),
-        tooltip=str(order),
+        popup=str((tag + "\n" + str(order))) if order else tag,
+        tooltip=str(order) if order else "Taller",
         icon=div,
     ).add_to(map)
 
