@@ -8,14 +8,14 @@ from optimization_routes import call_sync_api, proccess_json_for_gcloud
 # start request dummy info
 
 
-def get_dummy_deliveries_info(q_deliveries, delivery_block):
+def get_dummy_deliveries_info(q_deliveries, range_of_hours):
     if q_deliveries > 40 or q_deliveries < 1:
         raise Exception('"q_deliveries" max value is 40 and min value is 1"')
-    blocks_special_hours = [
-        [8, 9, 10, 11],
-        [10, 11, 12, 13, 14, 15],
-        [16, 17, 18, 19],
-    ]
+    # blocks_special_hours = [
+    #     [8, 9, 10, 11],
+    #     [10, 11, 12, 13, 14, 15],
+    #     [16, 17, 18, 19],
+    # ]
 
     coordinates = json.loads(
         open("./json/enviaflores_production_direcciones.json").read()
@@ -35,8 +35,8 @@ def get_dummy_deliveries_info(q_deliveries, delivery_block):
             "location_x": location_x,
         }
         if i == 2 or i % 3 == 0 or i == 9:
-            block_special_hour = blocks_special_hours[delivery_block - 1]
-            start_hour = randint(block_special_hour[0], block_special_hour[-1])
+
+            start_hour = randint(range_of_hours[0], range_of_hours[1] - 1)
             end_hour = start_hour + 1
             obj.update(
                 {
@@ -56,16 +56,22 @@ def get_dummy_deliveries_info(q_deliveries, delivery_block):
 
 
 def run():
-    deliveries = get_dummy_deliveries_info(40, 1)
+    range_of_hours = [15, 20]
+    deliveries = get_dummy_deliveries_info(
+        q_deliveries=40, range_of_hours=range_of_hours
+    )
+    # print(deliveries)
 
     data_for_request = proccess_json_for_gcloud(
         {
             "shipments": deliveries,
-            "drivers": 4,
-            "cost_per_traveled_hour": 25,
+            "drivers": 6,
+            "cost_per_traveled_hour": 30,
             "auto_limit": True,
             # "limit_per_driver": 10,
-            "block": 1,
+            # "block": delivery_block,
+            "start_delivery_hour": f"{str(range_of_hours[0])}:00:00",
+            "end_delivery_hour": f"{str(range_of_hours[1])}:00:00",
             "depot_location_y": 25.665667776013077,
             "depot_location_x": -100.45060983468106,
         }

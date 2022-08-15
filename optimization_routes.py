@@ -10,11 +10,6 @@ time_zones = {
     "BajaSur": "06:00",
     "BajaNorte": "07:00",
 }
-blocks = [
-    ["08:00:00", "13:00:00"],
-    ["10:00:00", "16:00:00"],
-    ["13:00:00", "20:00:00"],
-]
 
 
 def convert_date(time_zone, hour):
@@ -52,7 +47,8 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
             }
         )
         special_hour = shipment.get("special")
-        block = data.get("block")
+        start_delivery_hour = data.get("start_delivery_hour")
+        end_delivery_hour = data.get("end_delivery_hour")
 
         if special_hour:
 
@@ -72,18 +68,14 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
 
             start_hour = convert_date(time_zone, start_hour)
             end_hour = convert_date(time_zone, end_hour)
-        elif block:
-            try:
-                hours = blocks[block - 1]
-            except IndexError as e:
-                raise Exception('"Block->value" does not exist')
-            else:
-                start_hour = convert_date(time_zone, hours[0])
-                end_hour = convert_date(time_zone, hours[1])
+        elif start_delivery_hour and end_delivery_hour:
+
+            start_hour = convert_date(time_zone, start_delivery_hour)
+            end_hour = convert_date(time_zone, end_delivery_hour)
 
         else:
             raise Exception(
-                'Either "block" or "shipments[]->special_hour" keys are required'
+                'Either "start&&end_delivery_hour" or "shipments[]->special_hour" keys are required'
             )
 
         delivery.update(
@@ -112,10 +104,12 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
         limit = limit_per_driver
     else:
         raise Exception('"limit_per_driver" or "auto_limit" keys are required')
-
+    # print(time_zone, hours[1])
     for driver in range(drivers):
         vehicle = {
-            "end_time_windows": [{"end_time": convert_date(time_zone, hours[1])}],
+            "end_time_windows": [
+                {"end_time": convert_date(time_zone, end_delivery_hour)}
+            ],
             "start_location": {},
             "cost_per_traveled_hour": 0,
         }
@@ -133,7 +127,11 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
                 "start_location": {
                     "latitude": depot_location_y,
                     "longitude": depot_location_x,
-                }
+                },
+                "end_location": {
+                    "latitude": depot_location_y,
+                    "longitude": depot_location_x,
+                },
             }
         )
 
@@ -155,6 +153,8 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
         )
 
         vehicles.append(vehicle)
+
+    # print(vehicles)
 
     finished_json = {
         "model": {
