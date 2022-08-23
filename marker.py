@@ -8,7 +8,6 @@ def process_info_for_marker(info: dict, deliveries_locations: list):
 
     routes = info.get("routes")
     if routes:
-
         c = 0
         for i in routes:
             c += 1
@@ -20,8 +19,9 @@ def process_info_for_marker(info: dict, deliveries_locations: list):
 
                 for i in visits:
                     _visit = {"order_id": i.get("visitLabel")}
+
                     odd = filter(
-                        lambda delivery: dict(delivery).get("order_id")
+                        lambda delivery: str(dict(delivery).get("id"))
                         == i.get("visitLabel"),
                         deliveries_locations,
                     )
@@ -29,13 +29,16 @@ def process_info_for_marker(info: dict, deliveries_locations: list):
                     if odd:
 
                         odd = list(odd)
-                        x = odd[0].get("location_x")
-                        y = odd[0].get("location_y")
 
-                        if odd[0].get("special"):
-                            _visit.update({"special": True})
+                        x = odd[0].get("latitude")
 
-                    _visit.update({"lattitude": y, "longitude": x})
+                        y = odd[0].get("longitude")
+
+                        if odd[0].get("schedule"):
+
+                            _visit.update({"schedule": True})
+
+                    _visit.update({"latitude": y, "longitude": x})
                     _visits.append(_visit)
                 obj.update({"visits": _visits})
                 info_for_marker.append(obj)
@@ -52,7 +55,7 @@ def mark_in_map(map, y, x, tag, color, order=0, main_point=False, special=False)
     if main_point:
         height = "30"
         width = "40"
-        color = "rgb(255, 63, 80)"
+        color = "blue"
         text = "Taller"
 
     div = folium.DivIcon(
@@ -69,27 +72,29 @@ def mark_in_map(map, y, x, tag, color, order=0, main_point=False, special=False)
         )
     )
     folium.Marker(
-        [y, x],
+        [x, y],
         popup=str((tag + "\n" + str(order))) if order else tag,
         tooltip=str(order) if order else "Taller",
         icon=div,
     ).add_to(map)
 
 
-def get_random_color():
+def get_random_color(list_colors: list):
 
-    r = random.randint(0, 255)
-    g = random.randint(0, 255)
-    b = random.randint(0, 255)
+    while True:
 
-    return f"rgb({r},{g},{b})"
+        r = random.randint(0, 255)
+        g = random.randint(0, 255)
+        b = random.randint(0, 255)
+        rgb = f"rgb({r},{g},{b})"
+        if not rgb in list_colors:
+            list_colors.append(rgb)
+            return rgb
 
 
 def make_map(data: list):
-
-    colors = [get_random_color() for x in range(len(data) + 1)]
-
-    print(colors)
+    list_colors = []
+    colors = [get_random_color(list_colors) for x in range(len(data) + 1)]
 
     my_map = folium.Map(
         location=[25.665667776013077, -100.45060983468106], zoom_start=12
@@ -97,8 +102,8 @@ def make_map(data: list):
     # Pass a string in popup parameter
     mark_in_map(
         my_map,
-        25.665667776013077,
         -100.45060983468106,
+        25.665667776013077,
         "Taller",
         "red",
         main_point=True,
@@ -107,20 +112,17 @@ def make_map(data: list):
     color_n = 0
     for route in data:
         c = 0
-
         for delivery in route.get("visits"):
-            print(delivery)
             mark_in_map(
                 my_map,
-                delivery.get("lattitude"),
-                delivery.get("longitude"),
+                str(delivery.get("latitude")),
+                str(delivery.get("longitude")),
                 delivery.get("order_id"),
                 color=colors[color_n],
                 order=c + 1,
-                special=delivery.get("special"),
+                special=delivery.get("schedule"),
             )
             c += 1
         color_n += 1
-        print("*" * 20)
 
     my_map.save("routes.html")
