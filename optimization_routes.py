@@ -12,8 +12,8 @@ time_zones = {
 }
 
 
-def convert_date(time_zone, hour):
-    return f"{datetime.now(tz=pytz.timezone(f'Mexico/{time_zone}')).strftime('%Y-%m-%d')}T{hour}-{time_zones[time_zone]}"
+def convert_date(time_zone, date, hour):
+    return f"{date}T{hour}-{time_zones[time_zone]}"
 
 
 def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
@@ -23,6 +23,10 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
 
     if not isinstance(data.get("shipments"), list):
         raise Exception('"shipments" must be a list array')
+
+    date = data.get("delivery_date")
+    if not date:
+        raise Exception('"delivery_date->" key is requried')
     shipments = []
     for shipment in data.get("shipments"):
 
@@ -55,20 +59,16 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
             start_hour = schedule.get("start")
             end_hour = schedule.get("end")
             if not start_hour:
-                raise Exception(
-                    '"shipments[]->special_hour->hour->start" key is requried'
-                )
+                raise Exception('"shipments[]->schedule->start" key is requried')
             if not end_hour:
-                raise Exception(
-                    '"shipments[]->special_hour->hour->end" key is requried'
-                )
+                raise Exception('"shipments[]->schedule->end" key is requried')
 
-            start_hour = convert_date(time_zone, start_hour)
-            end_hour = convert_date(time_zone, end_hour)
+            start_hour = convert_date(time_zone, date, start_hour)
+            end_hour = convert_date(time_zone, date, end_hour)
         elif start_delivery_hour and end_delivery_hour:
 
-            start_hour = convert_date(time_zone, start_delivery_hour)
-            end_hour = convert_date(time_zone, end_delivery_hour)
+            start_hour = convert_date(time_zone, date, start_delivery_hour)
+            end_hour = convert_date(time_zone, date, end_delivery_hour)
 
         else:
             raise Exception(
@@ -105,7 +105,7 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
     for driver in range(drivers):
         vehicle = {
             "end_time_windows": [
-                {"end_time": convert_date(time_zone, end_delivery_hour)}
+                {"end_time": convert_date(time_zone, date, end_delivery_hour)}
             ],
             "start_location": {},
             "cost_per_traveled_hour": 0,
@@ -153,8 +153,8 @@ def proccess_json_for_gcloud(data: dict, time_zone: str = "General"):
 
     finished_json = {
         "model": {
-            "global_start_time": f"{datetime.now().strftime('%Y-%m-%d')}T08:00:00-{time_zones[time_zone]}",
-            "global_end_time": f"{datetime.now().strftime('%Y-%m-%d')}T20:00:00-{time_zones[time_zone]}",
+            "global_start_time": f"{date}T08:00:00-{time_zones[time_zone]}",
+            "global_end_time": f"{date}T20:00:00-{time_zones[time_zone]}",
             "shipments": shipments,
             "vehicles": vehicles,
         }

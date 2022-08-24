@@ -24,12 +24,12 @@
     },
     {
       "vehicleIndex": 8,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T16:59:31Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T16:59:31Z",
       "visits": [
         {
           "shipmentIndex": 83,
-          "startTime": "2022-08-23T13:38:25Z",
+          "startTime": "2022-08-22T13:38:25Z",
           "demands": [
             {
               "type": "weight",
@@ -52,7 +52,7 @@
         },
         {
           "shipmentIndex": 156,
-          "startTime": "2022-08-23T13:42:48Z",
+          "startTime": "2022-08-22T13:42:48Z",
           "demands": [
             {
               "type": "weight",
@@ -75,7 +75,7 @@
         },
         {
           "shipmentIndex": 206,
-          "startTime": "2022-08-23T13:50:46Z",
+          "startTime": "2022-08-22T13:50:46Z",
           "demands": [
             {
               "type": "weight",
@@ -98,7 +98,7 @@
         },
         {
           "shipmentIndex": 18,
-          "startTime": "2022-08-23T14:05:26Z",
+          "startTime": "2022-08-22T14:05:26Z",
           "demands": [
             {
               "type": "weight",
@@ -121,7 +121,7 @@
         },
         {
           "shipmentIndex": 68,
-          "startTime": "2022-08-23T14:24:30Z",
+          "startTime": "2022-08-22T14:24:30Z",
           "demands": [
             {
               "type": "weight",
@@ -144,7 +144,7 @@
         },
         {
           "shipmentIndex": 25,
-          "startTime": "2022-08-23T14:33:55Z",
+          "startTime": "2022-08-22T14:33:55Z",
           "demands": [
             {
               "type": "weight",
@@ -167,7 +167,7 @@
         },
         {
           "shipmentIndex": 184,
-          "startTime": "2022-08-23T14:49:47Z",
+          "startTime": "2022-08-22T14:49:47Z",
           "demands": [
             {
               "type": "weight",
@@ -190,7 +190,7 @@
         },
         {
           "shipmentIndex": 113,
-          "startTime": "2022-08-23T14:50:18Z",
+          "startTime": "2022-08-22T14:50:18Z",
           "demands": [
             {
               "type": "weight",
@@ -213,7 +213,7 @@
         },
         {
           "shipmentIndex": 112,
-          "startTime": "2022-08-23T14:58:51Z",
+          "startTime": "2022-08-22T14:58:51Z",
           "demands": [
             {
               "type": "weight",
@@ -236,7 +236,7 @@
         },
         {
           "shipmentIndex": 21,
-          "startTime": "2022-08-23T15:01:38Z",
+          "startTime": "2022-08-22T15:01:38Z",
           "demands": [
             {
               "type": "weight",
@@ -259,7 +259,7 @@
         },
         {
           "shipmentIndex": 216,
-          "startTime": "2022-08-23T15:06:24Z",
+          "startTime": "2022-08-22T15:06:24Z",
           "demands": [
             {
               "type": "weight",
@@ -282,7 +282,7 @@
         },
         {
           "shipmentIndex": 128,
-          "startTime": "2022-08-23T15:17:48Z",
+          "startTime": "2022-08-22T15:17:48Z",
           "demands": [
             {
               "type": "weight",
@@ -305,7 +305,7 @@
         },
         {
           "shipmentIndex": 15,
-          "startTime": "2022-08-23T15:40:01Z",
+          "startTime": "2022-08-22T15:40:01Z",
           "demands": [
             {
               "type": "weight",
@@ -328,7 +328,7 @@
         },
         {
           "shipmentIndex": 104,
-          "startTime": "2022-08-23T15:56:01Z",
+          "startTime": "2022-08-22T15:56:01Z",
           "demands": [
             {
               "type": "weight",
@@ -351,7 +351,7 @@
         },
         {
           "shipmentIndex": 100,
-          "startTime": "2022-08-23T16:03:09Z",
+          "startTime": "2022-08-22T16:03:09Z",
           "demands": [
             {
               "type": "weight",
@@ -374,7 +374,7 @@
         },
         {
           "shipmentIndex": 70,
-          "startTime": "2022-08-23T16:11:06Z",
+          "startTime": "2022-08-22T16:11:06Z",
           "demands": [
             {
               "type": "weight",
@@ -397,7 +397,7 @@
         },
         {
           "shipmentIndex": 94,
-          "startTime": "2022-08-23T16:15:42Z",
+          "startTime": "2022-08-22T16:15:42Z",
           "demands": [
             {
               "type": "weight",
@@ -420,7 +420,7 @@
         },
         {
           "shipmentIndex": 109,
-          "startTime": "2022-08-23T16:30:25Z",
+          "startTime": "2022-08-22T16:30:25Z",
           "demands": [
             {
               "type": "weight",
@@ -445,10 +445,10 @@
       "transitions": [
         {
           "travelDuration": "2305s",
-          "travelDistanceMeters": 32069.0,
+          "travelDistanceMeters": 31910.0,
           "waitDuration": "0s",
           "totalDuration": "2305s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "18"
@@ -460,7 +460,7 @@
           "travelDistanceMeters": 1391.0,
           "waitDuration": "0s",
           "totalDuration": "263s",
-          "startTime": "2022-08-23T13:38:25Z",
+          "startTime": "2022-08-22T13:38:25Z",
           "vehicleLoads": {
             "weight": {
               "amount": "17"
@@ -472,7 +472,7 @@
           "travelDistanceMeters": 4630.0,
           "waitDuration": "0s",
           "totalDuration": "478s",
-          "startTime": "2022-08-23T13:42:48Z",
+          "startTime": "2022-08-22T13:42:48Z",
           "vehicleLoads": {
             "weight": {
               "amount": "16"
@@ -484,7 +484,7 @@
           "travelDistanceMeters": 8931.0,
           "waitDuration": "0s",
           "totalDuration": "880s",
-          "startTime": "2022-08-23T13:50:46Z",
+          "startTime": "2022-08-22T13:50:46Z",
           "vehicleLoads": {
             "weight": {
               "amount": "15"
@@ -496,7 +496,7 @@
           "travelDistanceMeters": 17374.0,
           "waitDuration": "0s",
           "totalDuration": "1144s",
-          "startTime": "2022-08-23T14:05:26Z",
+          "startTime": "2022-08-22T14:05:26Z",
           "vehicleLoads": {
             "weight": {
               "amount": "14"
@@ -508,7 +508,7 @@
           "travelDistanceMeters": 3734.0,
           "waitDuration": "0s",
           "totalDuration": "565s",
-          "startTime": "2022-08-23T14:24:30Z",
+          "startTime": "2022-08-22T14:24:30Z",
           "vehicleLoads": {
             "weight": {
               "amount": "13"
@@ -520,7 +520,7 @@
           "travelDistanceMeters": 8572.0,
           "waitDuration": "0s",
           "totalDuration": "952s",
-          "startTime": "2022-08-23T14:33:55Z",
+          "startTime": "2022-08-22T14:33:55Z",
           "vehicleLoads": {
             "weight": {
               "amount": "12"
@@ -532,7 +532,7 @@
           "travelDistanceMeters": 162.0,
           "waitDuration": "0s",
           "totalDuration": "31s",
-          "startTime": "2022-08-23T14:49:47Z",
+          "startTime": "2022-08-22T14:49:47Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -544,7 +544,7 @@
           "travelDistanceMeters": 3907.0,
           "waitDuration": "0s",
           "totalDuration": "513s",
-          "startTime": "2022-08-23T14:50:18Z",
+          "startTime": "2022-08-22T14:50:18Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -556,7 +556,7 @@
           "travelDistanceMeters": 1130.0,
           "waitDuration": "0s",
           "totalDuration": "167s",
-          "startTime": "2022-08-23T14:58:51Z",
+          "startTime": "2022-08-22T14:58:51Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -568,7 +568,7 @@
           "travelDistanceMeters": 1141.0,
           "waitDuration": "0s",
           "totalDuration": "286s",
-          "startTime": "2022-08-23T15:01:38Z",
+          "startTime": "2022-08-22T15:01:38Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -580,7 +580,7 @@
           "travelDistanceMeters": 3479.0,
           "waitDuration": "0s",
           "totalDuration": "684s",
-          "startTime": "2022-08-23T15:06:24Z",
+          "startTime": "2022-08-22T15:06:24Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -592,7 +592,7 @@
           "travelDistanceMeters": 10117.0,
           "waitDuration": "0s",
           "totalDuration": "1333s",
-          "startTime": "2022-08-23T15:17:48Z",
+          "startTime": "2022-08-22T15:17:48Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -604,7 +604,7 @@
           "travelDistanceMeters": 6623.0,
           "waitDuration": "0s",
           "totalDuration": "960s",
-          "startTime": "2022-08-23T15:40:01Z",
+          "startTime": "2022-08-22T15:40:01Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -616,7 +616,7 @@
           "travelDistanceMeters": 1765.0,
           "waitDuration": "0s",
           "totalDuration": "428s",
-          "startTime": "2022-08-23T15:56:01Z",
+          "startTime": "2022-08-22T15:56:01Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -628,7 +628,7 @@
           "travelDistanceMeters": 2245.0,
           "waitDuration": "0s",
           "totalDuration": "477s",
-          "startTime": "2022-08-23T16:03:09Z",
+          "startTime": "2022-08-22T16:03:09Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -640,7 +640,7 @@
           "travelDistanceMeters": 754.0,
           "waitDuration": "0s",
           "totalDuration": "276s",
-          "startTime": "2022-08-23T16:11:06Z",
+          "startTime": "2022-08-22T16:11:06Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -652,7 +652,7 @@
           "travelDistanceMeters": 7572.0,
           "waitDuration": "0s",
           "totalDuration": "883s",
-          "startTime": "2022-08-23T16:15:42Z",
+          "startTime": "2022-08-22T16:15:42Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -664,7 +664,7 @@
           "travelDistanceMeters": 24026.0,
           "waitDuration": "0s",
           "totalDuration": "1746s",
-          "startTime": "2022-08-23T16:30:25Z",
+          "startTime": "2022-08-22T16:30:25Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -678,7 +678,7 @@
         "breakDuration": "0s",
         "visitDuration": "0s",
         "totalDuration": "14371s",
-        "travelDistanceMeters": 139622.0,
+        "travelDistanceMeters": 139463.0,
         "maxLoads": {
           "weight": {
             "amount": "18"
@@ -693,7 +693,7 @@
       "travelSteps": [
         {
           "duration": "2305s",
-          "distanceMeters": 32069.0
+          "distanceMeters": 31910.0
         },
         {
           "duration": "263s",
@@ -770,18 +770,18 @@
       ],
       "vehicleDetour": "14371s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 119.75833333333334
+        "model.vehicles.cost_per_traveled_hour": 79.83888888888889
       },
-      "routeTotalCost": 119.75833333333334
+      "routeTotalCost": 79.83888888888889
     },
     {
       "vehicleIndex": 9,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T15:41:00Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T15:41:00Z",
       "visits": [
         {
           "shipmentIndex": 67,
-          "startTime": "2022-08-23T13:26:40Z",
+          "startTime": "2022-08-22T13:26:40Z",
           "demands": [
             {
               "type": "weight",
@@ -804,7 +804,7 @@
         },
         {
           "shipmentIndex": 150,
-          "startTime": "2022-08-23T13:34:44Z",
+          "startTime": "2022-08-22T13:34:44Z",
           "demands": [
             {
               "type": "weight",
@@ -827,7 +827,7 @@
         },
         {
           "shipmentIndex": 123,
-          "startTime": "2022-08-23T13:38:09Z",
+          "startTime": "2022-08-22T13:38:09Z",
           "demands": [
             {
               "type": "weight",
@@ -850,7 +850,7 @@
         },
         {
           "shipmentIndex": 88,
-          "startTime": "2022-08-23T13:43:04Z",
+          "startTime": "2022-08-22T13:43:04Z",
           "demands": [
             {
               "type": "weight",
@@ -873,7 +873,7 @@
         },
         {
           "shipmentIndex": 76,
-          "startTime": "2022-08-23T13:48:23Z",
+          "startTime": "2022-08-22T13:48:23Z",
           "demands": [
             {
               "type": "weight",
@@ -896,7 +896,7 @@
         },
         {
           "shipmentIndex": 136,
-          "startTime": "2022-08-23T13:58:06Z",
+          "startTime": "2022-08-22T13:58:06Z",
           "demands": [
             {
               "type": "weight",
@@ -919,7 +919,7 @@
         },
         {
           "shipmentIndex": 34,
-          "startTime": "2022-08-23T13:59:56Z",
+          "startTime": "2022-08-22T13:59:56Z",
           "demands": [
             {
               "type": "weight",
@@ -942,7 +942,7 @@
         },
         {
           "shipmentIndex": 27,
-          "startTime": "2022-08-23T13:59:56Z",
+          "startTime": "2022-08-22T13:59:56Z",
           "demands": [
             {
               "type": "weight",
@@ -965,7 +965,7 @@
         },
         {
           "shipmentIndex": 146,
-          "startTime": "2022-08-23T14:09:25Z",
+          "startTime": "2022-08-22T14:09:25Z",
           "demands": [
             {
               "type": "weight",
@@ -988,7 +988,7 @@
         },
         {
           "shipmentIndex": 52,
-          "startTime": "2022-08-23T14:16:27Z",
+          "startTime": "2022-08-22T14:16:27Z",
           "demands": [
             {
               "type": "weight",
@@ -1011,7 +1011,7 @@
         },
         {
           "shipmentIndex": 45,
-          "startTime": "2022-08-23T14:24:21Z",
+          "startTime": "2022-08-22T14:24:21Z",
           "demands": [
             {
               "type": "weight",
@@ -1034,7 +1034,7 @@
         },
         {
           "shipmentIndex": 108,
-          "startTime": "2022-08-23T14:28:35Z",
+          "startTime": "2022-08-22T14:28:35Z",
           "demands": [
             {
               "type": "weight",
@@ -1057,7 +1057,7 @@
         },
         {
           "shipmentIndex": 96,
-          "startTime": "2022-08-23T14:28:35Z",
+          "startTime": "2022-08-22T14:28:35Z",
           "demands": [
             {
               "type": "weight",
@@ -1080,7 +1080,7 @@
         },
         {
           "shipmentIndex": 127,
-          "startTime": "2022-08-23T14:34:32Z",
+          "startTime": "2022-08-22T14:34:32Z",
           "demands": [
             {
               "type": "weight",
@@ -1103,7 +1103,7 @@
         },
         {
           "shipmentIndex": 185,
-          "startTime": "2022-08-23T14:40:14Z",
+          "startTime": "2022-08-22T14:40:14Z",
           "demands": [
             {
               "type": "weight",
@@ -1126,7 +1126,7 @@
         },
         {
           "shipmentIndex": 103,
-          "startTime": "2022-08-23T14:50:27Z",
+          "startTime": "2022-08-22T14:50:27Z",
           "demands": [
             {
               "type": "weight",
@@ -1149,7 +1149,7 @@
         },
         {
           "shipmentIndex": 162,
-          "startTime": "2022-08-23T14:53:12Z",
+          "startTime": "2022-08-22T14:53:12Z",
           "demands": [
             {
               "type": "weight",
@@ -1172,7 +1172,7 @@
         },
         {
           "shipmentIndex": 49,
-          "startTime": "2022-08-23T14:53:14Z",
+          "startTime": "2022-08-22T14:53:14Z",
           "demands": [
             {
               "type": "weight",
@@ -1195,7 +1195,7 @@
         },
         {
           "shipmentIndex": 138,
-          "startTime": "2022-08-23T15:02:42Z",
+          "startTime": "2022-08-22T15:02:42Z",
           "demands": [
             {
               "type": "weight",
@@ -1218,7 +1218,7 @@
         },
         {
           "shipmentIndex": 20,
-          "startTime": "2022-08-23T15:12:43Z",
+          "startTime": "2022-08-22T15:12:43Z",
           "demands": [
             {
               "type": "weight",
@@ -1243,10 +1243,10 @@
       "transitions": [
         {
           "travelDuration": "1600s",
-          "travelDistanceMeters": 23187.0,
+          "travelDistanceMeters": 23029.0,
           "waitDuration": "0s",
           "totalDuration": "1600s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "20"
@@ -1258,7 +1258,7 @@
           "travelDistanceMeters": 4212.0,
           "waitDuration": "0s",
           "totalDuration": "484s",
-          "startTime": "2022-08-23T13:26:40Z",
+          "startTime": "2022-08-22T13:26:40Z",
           "vehicleLoads": {
             "weight": {
               "amount": "19"
@@ -1270,7 +1270,7 @@
           "travelDistanceMeters": 964.0,
           "waitDuration": "0s",
           "totalDuration": "205s",
-          "startTime": "2022-08-23T13:34:44Z",
+          "startTime": "2022-08-22T13:34:44Z",
           "vehicleLoads": {
             "weight": {
               "amount": "18"
@@ -1282,7 +1282,7 @@
           "travelDistanceMeters": 2097.0,
           "waitDuration": "0s",
           "totalDuration": "295s",
-          "startTime": "2022-08-23T13:38:09Z",
+          "startTime": "2022-08-22T13:38:09Z",
           "vehicleLoads": {
             "weight": {
               "amount": "17"
@@ -1294,7 +1294,7 @@
           "travelDistanceMeters": 1315.0,
           "waitDuration": "0s",
           "totalDuration": "319s",
-          "startTime": "2022-08-23T13:43:04Z",
+          "startTime": "2022-08-22T13:43:04Z",
           "vehicleLoads": {
             "weight": {
               "amount": "16"
@@ -1306,7 +1306,7 @@
           "travelDistanceMeters": 2923.0,
           "waitDuration": "0s",
           "totalDuration": "583s",
-          "startTime": "2022-08-23T13:48:23Z",
+          "startTime": "2022-08-22T13:48:23Z",
           "vehicleLoads": {
             "weight": {
               "amount": "15"
@@ -1318,7 +1318,7 @@
           "travelDistanceMeters": 720.0,
           "waitDuration": "0s",
           "totalDuration": "110s",
-          "startTime": "2022-08-23T13:58:06Z",
+          "startTime": "2022-08-22T13:58:06Z",
           "vehicleLoads": {
             "weight": {
               "amount": "14"
@@ -1329,7 +1329,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T13:59:56Z",
+          "startTime": "2022-08-22T13:59:56Z",
           "vehicleLoads": {
             "weight": {
               "amount": "13"
@@ -1341,7 +1341,7 @@
           "travelDistanceMeters": 2885.0,
           "waitDuration": "0s",
           "totalDuration": "569s",
-          "startTime": "2022-08-23T13:59:56Z",
+          "startTime": "2022-08-22T13:59:56Z",
           "vehicleLoads": {
             "weight": {
               "amount": "12"
@@ -1353,7 +1353,7 @@
           "travelDistanceMeters": 2775.0,
           "waitDuration": "0s",
           "totalDuration": "422s",
-          "startTime": "2022-08-23T14:09:25Z",
+          "startTime": "2022-08-22T14:09:25Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -1365,7 +1365,7 @@
           "travelDistanceMeters": 2672.0,
           "waitDuration": "0s",
           "totalDuration": "474s",
-          "startTime": "2022-08-23T14:16:27Z",
+          "startTime": "2022-08-22T14:16:27Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -1377,7 +1377,7 @@
           "travelDistanceMeters": 1412.0,
           "waitDuration": "0s",
           "totalDuration": "254s",
-          "startTime": "2022-08-23T14:24:21Z",
+          "startTime": "2022-08-22T14:24:21Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -1388,7 +1388,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T14:28:35Z",
+          "startTime": "2022-08-22T14:28:35Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -1400,7 +1400,7 @@
           "travelDistanceMeters": 2672.0,
           "waitDuration": "0s",
           "totalDuration": "357s",
-          "startTime": "2022-08-23T14:28:35Z",
+          "startTime": "2022-08-22T14:28:35Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -1412,7 +1412,7 @@
           "travelDistanceMeters": 2327.0,
           "waitDuration": "0s",
           "totalDuration": "342s",
-          "startTime": "2022-08-23T14:34:32Z",
+          "startTime": "2022-08-22T14:34:32Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -1424,7 +1424,7 @@
           "travelDistanceMeters": 5004.0,
           "waitDuration": "0s",
           "totalDuration": "613s",
-          "startTime": "2022-08-23T14:40:14Z",
+          "startTime": "2022-08-22T14:40:14Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -1436,7 +1436,7 @@
           "travelDistanceMeters": 1059.0,
           "waitDuration": "0s",
           "totalDuration": "165s",
-          "startTime": "2022-08-23T14:50:27Z",
+          "startTime": "2022-08-22T14:50:27Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -1448,7 +1448,7 @@
           "travelDistanceMeters": 10.0,
           "waitDuration": "0s",
           "totalDuration": "2s",
-          "startTime": "2022-08-23T14:53:12Z",
+          "startTime": "2022-08-22T14:53:12Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -1460,7 +1460,7 @@
           "travelDistanceMeters": 5225.0,
           "waitDuration": "0s",
           "totalDuration": "568s",
-          "startTime": "2022-08-23T14:53:14Z",
+          "startTime": "2022-08-22T14:53:14Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -1472,7 +1472,7 @@
           "travelDistanceMeters": 4432.0,
           "waitDuration": "0s",
           "totalDuration": "601s",
-          "startTime": "2022-08-23T15:02:42Z",
+          "startTime": "2022-08-22T15:02:42Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -1484,7 +1484,7 @@
           "travelDistanceMeters": 27051.0,
           "waitDuration": "0s",
           "totalDuration": "1697s",
-          "startTime": "2022-08-23T15:12:43Z",
+          "startTime": "2022-08-22T15:12:43Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -1498,7 +1498,7 @@
         "breakDuration": "0s",
         "visitDuration": "0s",
         "totalDuration": "9660s",
-        "travelDistanceMeters": 92942.0,
+        "travelDistanceMeters": 92784.0,
         "maxLoads": {
           "weight": {
             "amount": "20"
@@ -1513,7 +1513,7 @@
       "travelSteps": [
         {
           "duration": "1600s",
-          "distanceMeters": 23187.0
+          "distanceMeters": 23029.0
         },
         {
           "duration": "484s",
@@ -1596,18 +1596,18 @@
       ],
       "vehicleDetour": "9660s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 80.5
+        "model.vehicles.cost_per_traveled_hour": 53.666666666666664
       },
-      "routeTotalCost": 80.5
+      "routeTotalCost": 53.666666666666664
     },
     {
       "vehicleIndex": 10,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T14:17:43Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T14:17:43Z",
       "visits": [
         {
           "shipmentIndex": 74,
-          "startTime": "2022-08-23T13:08:33Z",
+          "startTime": "2022-08-22T13:08:33Z",
           "demands": [
             {
               "type": "weight",
@@ -1630,7 +1630,7 @@
         },
         {
           "shipmentIndex": 214,
-          "startTime": "2022-08-23T13:11:58Z",
+          "startTime": "2022-08-22T13:11:58Z",
           "demands": [
             {
               "type": "weight",
@@ -1653,7 +1653,7 @@
         },
         {
           "shipmentIndex": 125,
-          "startTime": "2022-08-23T13:14:56Z",
+          "startTime": "2022-08-22T13:14:56Z",
           "demands": [
             {
               "type": "weight",
@@ -1676,7 +1676,7 @@
         },
         {
           "shipmentIndex": 202,
-          "startTime": "2022-08-23T13:17:56Z",
+          "startTime": "2022-08-22T13:17:56Z",
           "demands": [
             {
               "type": "weight",
@@ -1699,7 +1699,7 @@
         },
         {
           "shipmentIndex": 145,
-          "startTime": "2022-08-23T13:25:20Z",
+          "startTime": "2022-08-22T13:25:20Z",
           "demands": [
             {
               "type": "weight",
@@ -1722,7 +1722,7 @@
         },
         {
           "shipmentIndex": 173,
-          "startTime": "2022-08-23T13:31:15Z",
+          "startTime": "2022-08-22T13:31:15Z",
           "demands": [
             {
               "type": "weight",
@@ -1745,7 +1745,7 @@
         },
         {
           "shipmentIndex": 105,
-          "startTime": "2022-08-23T13:35:50Z",
+          "startTime": "2022-08-22T13:35:50Z",
           "demands": [
             {
               "type": "weight",
@@ -1768,7 +1768,7 @@
         },
         {
           "shipmentIndex": 222,
-          "startTime": "2022-08-23T13:42:31Z",
+          "startTime": "2022-08-22T13:42:31Z",
           "demands": [
             {
               "type": "weight",
@@ -1791,7 +1791,7 @@
         },
         {
           "shipmentIndex": 81,
-          "startTime": "2022-08-23T13:48:30Z",
+          "startTime": "2022-08-22T13:48:30Z",
           "demands": [
             {
               "type": "weight",
@@ -1814,7 +1814,7 @@
         },
         {
           "shipmentIndex": 122,
-          "startTime": "2022-08-23T13:53:58Z",
+          "startTime": "2022-08-22T13:53:58Z",
           "demands": [
             {
               "type": "weight",
@@ -1837,7 +1837,7 @@
         },
         {
           "shipmentIndex": 63,
-          "startTime": "2022-08-23T14:05:22Z",
+          "startTime": "2022-08-22T14:05:22Z",
           "demands": [
             {
               "type": "weight",
@@ -1865,7 +1865,7 @@
           "travelDistanceMeters": 2816.0,
           "waitDuration": "0s",
           "totalDuration": "513s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -1877,7 +1877,7 @@
           "travelDistanceMeters": 937.0,
           "waitDuration": "0s",
           "totalDuration": "205s",
-          "startTime": "2022-08-23T13:08:33Z",
+          "startTime": "2022-08-22T13:08:33Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -1889,7 +1889,7 @@
           "travelDistanceMeters": 1789.0,
           "waitDuration": "0s",
           "totalDuration": "178s",
-          "startTime": "2022-08-23T13:11:58Z",
+          "startTime": "2022-08-22T13:11:58Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -1901,7 +1901,7 @@
           "travelDistanceMeters": 1446.0,
           "waitDuration": "0s",
           "totalDuration": "180s",
-          "startTime": "2022-08-23T13:14:56Z",
+          "startTime": "2022-08-22T13:14:56Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -1913,7 +1913,7 @@
           "travelDistanceMeters": 2291.0,
           "waitDuration": "0s",
           "totalDuration": "444s",
-          "startTime": "2022-08-23T13:17:56Z",
+          "startTime": "2022-08-22T13:17:56Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -1925,7 +1925,7 @@
           "travelDistanceMeters": 1652.0,
           "waitDuration": "0s",
           "totalDuration": "355s",
-          "startTime": "2022-08-23T13:25:20Z",
+          "startTime": "2022-08-22T13:25:20Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -1937,7 +1937,7 @@
           "travelDistanceMeters": 1161.0,
           "waitDuration": "0s",
           "totalDuration": "275s",
-          "startTime": "2022-08-23T13:31:15Z",
+          "startTime": "2022-08-22T13:31:15Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -1949,7 +1949,7 @@
           "travelDistanceMeters": 1858.0,
           "waitDuration": "0s",
           "totalDuration": "401s",
-          "startTime": "2022-08-23T13:35:50Z",
+          "startTime": "2022-08-22T13:35:50Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -1961,7 +1961,7 @@
           "travelDistanceMeters": 1620.0,
           "waitDuration": "0s",
           "totalDuration": "359s",
-          "startTime": "2022-08-23T13:42:31Z",
+          "startTime": "2022-08-22T13:42:31Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -1973,7 +1973,7 @@
           "travelDistanceMeters": 1352.0,
           "waitDuration": "0s",
           "totalDuration": "328s",
-          "startTime": "2022-08-23T13:48:30Z",
+          "startTime": "2022-08-22T13:48:30Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -1985,7 +1985,7 @@
           "travelDistanceMeters": 3579.0,
           "waitDuration": "0s",
           "totalDuration": "684s",
-          "startTime": "2022-08-23T13:53:58Z",
+          "startTime": "2022-08-22T13:53:58Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -1997,7 +1997,7 @@
           "travelDistanceMeters": 5525.0,
           "waitDuration": "0s",
           "totalDuration": "741s",
-          "startTime": "2022-08-23T14:05:22Z",
+          "startTime": "2022-08-22T14:05:22Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -2075,18 +2075,18 @@
       ],
       "vehicleDetour": "4663s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 38.858333333333334
+        "model.vehicles.cost_per_traveled_hour": 25.905555555555555
       },
-      "routeTotalCost": 38.858333333333334
+      "routeTotalCost": 25.905555555555555
     },
     {
       "vehicleIndex": 11,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T15:49:09Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T15:49:09Z",
       "visits": [
         {
           "shipmentIndex": 153,
-          "startTime": "2022-08-23T13:23:00Z",
+          "startTime": "2022-08-22T13:23:00Z",
           "demands": [
             {
               "type": "weight",
@@ -2109,7 +2109,7 @@
         },
         {
           "shipmentIndex": 204,
-          "startTime": "2022-08-23T13:33:38Z",
+          "startTime": "2022-08-22T13:33:38Z",
           "demands": [
             {
               "type": "weight",
@@ -2132,7 +2132,7 @@
         },
         {
           "shipmentIndex": 71,
-          "startTime": "2022-08-23T13:38:31Z",
+          "startTime": "2022-08-22T13:38:31Z",
           "demands": [
             {
               "type": "weight",
@@ -2155,7 +2155,7 @@
         },
         {
           "shipmentIndex": 38,
-          "startTime": "2022-08-23T13:41:48Z",
+          "startTime": "2022-08-22T13:41:48Z",
           "demands": [
             {
               "type": "weight",
@@ -2178,7 +2178,7 @@
         },
         {
           "shipmentIndex": 181,
-          "startTime": "2022-08-23T13:46:34Z",
+          "startTime": "2022-08-22T13:46:34Z",
           "demands": [
             {
               "type": "weight",
@@ -2201,7 +2201,7 @@
         },
         {
           "shipmentIndex": 141,
-          "startTime": "2022-08-23T13:48:37Z",
+          "startTime": "2022-08-22T13:48:37Z",
           "demands": [
             {
               "type": "weight",
@@ -2224,7 +2224,7 @@
         },
         {
           "shipmentIndex": 134,
-          "startTime": "2022-08-23T13:48:37Z",
+          "startTime": "2022-08-22T13:48:37Z",
           "demands": [
             {
               "type": "weight",
@@ -2247,7 +2247,7 @@
         },
         {
           "shipmentIndex": 35,
-          "startTime": "2022-08-23T13:53:56Z",
+          "startTime": "2022-08-22T13:53:56Z",
           "demands": [
             {
               "type": "weight",
@@ -2270,7 +2270,7 @@
         },
         {
           "shipmentIndex": 41,
-          "startTime": "2022-08-23T13:57:12Z",
+          "startTime": "2022-08-22T13:57:12Z",
           "demands": [
             {
               "type": "weight",
@@ -2293,7 +2293,7 @@
         },
         {
           "shipmentIndex": 19,
-          "startTime": "2022-08-23T13:57:12Z",
+          "startTime": "2022-08-22T13:57:12Z",
           "demands": [
             {
               "type": "weight",
@@ -2316,7 +2316,7 @@
         },
         {
           "shipmentIndex": 51,
-          "startTime": "2022-08-23T14:06:16Z",
+          "startTime": "2022-08-22T14:06:16Z",
           "demands": [
             {
               "type": "weight",
@@ -2339,7 +2339,7 @@
         },
         {
           "shipmentIndex": 80,
-          "startTime": "2022-08-23T14:22:01Z",
+          "startTime": "2022-08-22T14:22:01Z",
           "demands": [
             {
               "type": "weight",
@@ -2362,7 +2362,7 @@
         },
         {
           "shipmentIndex": 85,
-          "startTime": "2022-08-23T14:28:54Z",
+          "startTime": "2022-08-22T14:28:54Z",
           "demands": [
             {
               "type": "weight",
@@ -2385,7 +2385,7 @@
         },
         {
           "shipmentIndex": 170,
-          "startTime": "2022-08-23T14:41:47Z",
+          "startTime": "2022-08-22T14:41:47Z",
           "demands": [
             {
               "type": "weight",
@@ -2408,7 +2408,7 @@
         },
         {
           "shipmentIndex": 54,
-          "startTime": "2022-08-23T14:50:37Z",
+          "startTime": "2022-08-22T14:50:37Z",
           "demands": [
             {
               "type": "weight",
@@ -2431,7 +2431,7 @@
         },
         {
           "shipmentIndex": 133,
-          "startTime": "2022-08-23T14:50:37Z",
+          "startTime": "2022-08-22T14:50:37Z",
           "demands": [
             {
               "type": "weight",
@@ -2454,7 +2454,7 @@
         },
         {
           "shipmentIndex": 171,
-          "startTime": "2022-08-23T14:58:06Z",
+          "startTime": "2022-08-22T14:58:06Z",
           "demands": [
             {
               "type": "weight",
@@ -2477,7 +2477,7 @@
         },
         {
           "shipmentIndex": 23,
-          "startTime": "2022-08-23T15:10:57Z",
+          "startTime": "2022-08-22T15:10:57Z",
           "demands": [
             {
               "type": "weight",
@@ -2500,7 +2500,7 @@
         },
         {
           "shipmentIndex": 8,
-          "startTime": "2022-08-23T15:16:59Z",
+          "startTime": "2022-08-22T15:16:59Z",
           "demands": [
             {
               "type": "weight",
@@ -2523,7 +2523,7 @@
         },
         {
           "shipmentIndex": 151,
-          "startTime": "2022-08-23T15:25:52Z",
+          "startTime": "2022-08-22T15:25:52Z",
           "demands": [
             {
               "type": "weight",
@@ -2548,10 +2548,10 @@
       "transitions": [
         {
           "travelDuration": "1380s",
-          "travelDistanceMeters": 19161.0,
+          "travelDistanceMeters": 19094.0,
           "waitDuration": "0s",
           "totalDuration": "1380s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "20"
@@ -2563,7 +2563,7 @@
           "travelDistanceMeters": 3512.0,
           "waitDuration": "0s",
           "totalDuration": "638s",
-          "startTime": "2022-08-23T13:23:00Z",
+          "startTime": "2022-08-22T13:23:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "19"
@@ -2575,7 +2575,7 @@
           "travelDistanceMeters": 2037.0,
           "waitDuration": "0s",
           "totalDuration": "293s",
-          "startTime": "2022-08-23T13:33:38Z",
+          "startTime": "2022-08-22T13:33:38Z",
           "vehicleLoads": {
             "weight": {
               "amount": "18"
@@ -2587,7 +2587,7 @@
           "travelDistanceMeters": 799.0,
           "waitDuration": "0s",
           "totalDuration": "197s",
-          "startTime": "2022-08-23T13:38:31Z",
+          "startTime": "2022-08-22T13:38:31Z",
           "vehicleLoads": {
             "weight": {
               "amount": "17"
@@ -2599,7 +2599,7 @@
           "travelDistanceMeters": 1234.0,
           "waitDuration": "0s",
           "totalDuration": "286s",
-          "startTime": "2022-08-23T13:41:48Z",
+          "startTime": "2022-08-22T13:41:48Z",
           "vehicleLoads": {
             "weight": {
               "amount": "16"
@@ -2611,7 +2611,7 @@
           "travelDistanceMeters": 490.0,
           "waitDuration": "0s",
           "totalDuration": "123s",
-          "startTime": "2022-08-23T13:46:34Z",
+          "startTime": "2022-08-22T13:46:34Z",
           "vehicleLoads": {
             "weight": {
               "amount": "15"
@@ -2622,7 +2622,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T13:48:37Z",
+          "startTime": "2022-08-22T13:48:37Z",
           "vehicleLoads": {
             "weight": {
               "amount": "14"
@@ -2634,7 +2634,7 @@
           "travelDistanceMeters": 1961.0,
           "waitDuration": "0s",
           "totalDuration": "319s",
-          "startTime": "2022-08-23T13:48:37Z",
+          "startTime": "2022-08-22T13:48:37Z",
           "vehicleLoads": {
             "weight": {
               "amount": "13"
@@ -2646,7 +2646,7 @@
           "travelDistanceMeters": 1017.0,
           "waitDuration": "0s",
           "totalDuration": "196s",
-          "startTime": "2022-08-23T13:53:56Z",
+          "startTime": "2022-08-22T13:53:56Z",
           "vehicleLoads": {
             "weight": {
               "amount": "12"
@@ -2657,7 +2657,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T13:57:12Z",
+          "startTime": "2022-08-22T13:57:12Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -2669,7 +2669,7 @@
           "travelDistanceMeters": 3307.0,
           "waitDuration": "0s",
           "totalDuration": "544s",
-          "startTime": "2022-08-23T13:57:12Z",
+          "startTime": "2022-08-22T13:57:12Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -2681,7 +2681,7 @@
           "travelDistanceMeters": 7706.0,
           "waitDuration": "0s",
           "totalDuration": "945s",
-          "startTime": "2022-08-23T14:06:16Z",
+          "startTime": "2022-08-22T14:06:16Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -2693,7 +2693,7 @@
           "travelDistanceMeters": 2031.0,
           "waitDuration": "0s",
           "totalDuration": "413s",
-          "startTime": "2022-08-23T14:22:01Z",
+          "startTime": "2022-08-22T14:22:01Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -2705,7 +2705,7 @@
           "travelDistanceMeters": 4613.0,
           "waitDuration": "0s",
           "totalDuration": "773s",
-          "startTime": "2022-08-23T14:28:54Z",
+          "startTime": "2022-08-22T14:28:54Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -2717,7 +2717,7 @@
           "travelDistanceMeters": 3928.0,
           "waitDuration": "0s",
           "totalDuration": "530s",
-          "startTime": "2022-08-23T14:41:47Z",
+          "startTime": "2022-08-22T14:41:47Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -2728,7 +2728,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T14:50:37Z",
+          "startTime": "2022-08-22T14:50:37Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -2740,7 +2740,7 @@
           "travelDistanceMeters": 2778.0,
           "waitDuration": "0s",
           "totalDuration": "449s",
-          "startTime": "2022-08-23T14:50:37Z",
+          "startTime": "2022-08-22T14:50:37Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -2752,7 +2752,7 @@
           "travelDistanceMeters": 5696.0,
           "waitDuration": "0s",
           "totalDuration": "771s",
-          "startTime": "2022-08-23T14:58:06Z",
+          "startTime": "2022-08-22T14:58:06Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -2764,7 +2764,7 @@
           "travelDistanceMeters": 2178.0,
           "waitDuration": "0s",
           "totalDuration": "362s",
-          "startTime": "2022-08-23T15:10:57Z",
+          "startTime": "2022-08-22T15:10:57Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -2776,7 +2776,7 @@
           "travelDistanceMeters": 4757.0,
           "waitDuration": "0s",
           "totalDuration": "533s",
-          "startTime": "2022-08-23T15:16:59Z",
+          "startTime": "2022-08-22T15:16:59Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -2788,7 +2788,7 @@
           "travelDistanceMeters": 20113.0,
           "waitDuration": "0s",
           "totalDuration": "1397s",
-          "startTime": "2022-08-23T15:25:52Z",
+          "startTime": "2022-08-22T15:25:52Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -2802,7 +2802,7 @@
         "breakDuration": "0s",
         "visitDuration": "0s",
         "totalDuration": "10149s",
-        "travelDistanceMeters": 87318.0,
+        "travelDistanceMeters": 87251.0,
         "maxLoads": {
           "weight": {
             "amount": "20"
@@ -2817,7 +2817,7 @@
       "travelSteps": [
         {
           "duration": "1380s",
-          "distanceMeters": 19161.0
+          "distanceMeters": 19094.0
         },
         {
           "duration": "638s",
@@ -2899,18 +2899,18 @@
       ],
       "vehicleDetour": "10149s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 84.575
+        "model.vehicles.cost_per_traveled_hour": 56.38333333333333
       },
-      "routeTotalCost": 84.575
+      "routeTotalCost": 56.38333333333333
     },
     {
       "vehicleIndex": 12,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T14:53:35Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T14:53:35Z",
       "visits": [
         {
           "shipmentIndex": 111,
-          "startTime": "2022-08-23T13:16:34Z",
+          "startTime": "2022-08-22T13:16:34Z",
           "demands": [
             {
               "type": "weight",
@@ -2932,7 +2932,7 @@
           }
         },
         {
-          "startTime": "2022-08-23T13:20:33Z",
+          "startTime": "2022-08-22T13:20:33Z",
           "demands": [
             {
               "type": "weight",
@@ -2955,7 +2955,7 @@
         },
         {
           "shipmentIndex": 101,
-          "startTime": "2022-08-23T13:22:52Z",
+          "startTime": "2022-08-22T13:22:52Z",
           "demands": [
             {
               "type": "weight",
@@ -2978,7 +2978,7 @@
         },
         {
           "shipmentIndex": 93,
-          "startTime": "2022-08-23T13:32:40Z",
+          "startTime": "2022-08-22T13:32:40Z",
           "demands": [
             {
               "type": "weight",
@@ -3001,7 +3001,7 @@
         },
         {
           "shipmentIndex": 60,
-          "startTime": "2022-08-23T13:32:40Z",
+          "startTime": "2022-08-22T13:32:40Z",
           "demands": [
             {
               "type": "weight",
@@ -3024,7 +3024,7 @@
         },
         {
           "shipmentIndex": 208,
-          "startTime": "2022-08-23T13:35:35Z",
+          "startTime": "2022-08-22T13:35:35Z",
           "demands": [
             {
               "type": "weight",
@@ -3047,7 +3047,7 @@
         },
         {
           "shipmentIndex": 114,
-          "startTime": "2022-08-23T13:35:35Z",
+          "startTime": "2022-08-22T13:35:35Z",
           "demands": [
             {
               "type": "weight",
@@ -3070,7 +3070,7 @@
         },
         {
           "shipmentIndex": 140,
-          "startTime": "2022-08-23T13:37:44Z",
+          "startTime": "2022-08-22T13:37:44Z",
           "demands": [
             {
               "type": "weight",
@@ -3093,7 +3093,7 @@
         },
         {
           "shipmentIndex": 217,
-          "startTime": "2022-08-23T13:39:59Z",
+          "startTime": "2022-08-22T13:39:59Z",
           "demands": [
             {
               "type": "weight",
@@ -3116,7 +3116,7 @@
         },
         {
           "shipmentIndex": 82,
-          "startTime": "2022-08-23T13:45:57Z",
+          "startTime": "2022-08-22T13:45:57Z",
           "demands": [
             {
               "type": "weight",
@@ -3139,7 +3139,7 @@
         },
         {
           "shipmentIndex": 201,
-          "startTime": "2022-08-23T13:53:13Z",
+          "startTime": "2022-08-22T13:53:13Z",
           "demands": [
             {
               "type": "weight",
@@ -3162,7 +3162,7 @@
         },
         {
           "shipmentIndex": 213,
-          "startTime": "2022-08-23T13:56:40Z",
+          "startTime": "2022-08-22T13:56:40Z",
           "demands": [
             {
               "type": "weight",
@@ -3185,7 +3185,7 @@
         },
         {
           "shipmentIndex": 13,
-          "startTime": "2022-08-23T14:01:53Z",
+          "startTime": "2022-08-22T14:01:53Z",
           "demands": [
             {
               "type": "weight",
@@ -3208,7 +3208,7 @@
         },
         {
           "shipmentIndex": 99,
-          "startTime": "2022-08-23T14:11:10Z",
+          "startTime": "2022-08-22T14:11:10Z",
           "demands": [
             {
               "type": "weight",
@@ -3231,7 +3231,7 @@
         },
         {
           "shipmentIndex": 97,
-          "startTime": "2022-08-23T14:11:41Z",
+          "startTime": "2022-08-22T14:11:41Z",
           "demands": [
             {
               "type": "weight",
@@ -3254,7 +3254,7 @@
         },
         {
           "shipmentIndex": 65,
-          "startTime": "2022-08-23T14:11:41Z",
+          "startTime": "2022-08-22T14:11:41Z",
           "demands": [
             {
               "type": "weight",
@@ -3277,7 +3277,7 @@
         },
         {
           "shipmentIndex": 64,
-          "startTime": "2022-08-23T14:11:41Z",
+          "startTime": "2022-08-22T14:11:41Z",
           "demands": [
             {
               "type": "weight",
@@ -3300,7 +3300,7 @@
         },
         {
           "shipmentIndex": 9,
-          "startTime": "2022-08-23T14:11:41Z",
+          "startTime": "2022-08-22T14:11:41Z",
           "demands": [
             {
               "type": "weight",
@@ -3323,7 +3323,7 @@
         },
         {
           "shipmentIndex": 55,
-          "startTime": "2022-08-23T14:21:33Z",
+          "startTime": "2022-08-22T14:21:33Z",
           "demands": [
             {
               "type": "weight",
@@ -3346,7 +3346,7 @@
         },
         {
           "shipmentIndex": 118,
-          "startTime": "2022-08-23T14:24:55Z",
+          "startTime": "2022-08-22T14:24:55Z",
           "demands": [
             {
               "type": "weight",
@@ -3374,7 +3374,7 @@
           "travelDistanceMeters": 13082.0,
           "waitDuration": "0s",
           "totalDuration": "994s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "20"
@@ -3386,7 +3386,7 @@
           "travelDistanceMeters": 1383.0,
           "waitDuration": "0s",
           "totalDuration": "239s",
-          "startTime": "2022-08-23T13:16:34Z",
+          "startTime": "2022-08-22T13:16:34Z",
           "vehicleLoads": {
             "weight": {
               "amount": "19"
@@ -3398,7 +3398,7 @@
           "travelDistanceMeters": 552.0,
           "waitDuration": "0s",
           "totalDuration": "139s",
-          "startTime": "2022-08-23T13:20:33Z",
+          "startTime": "2022-08-22T13:20:33Z",
           "vehicleLoads": {
             "weight": {
               "amount": "18"
@@ -3410,7 +3410,7 @@
           "travelDistanceMeters": 3465.0,
           "waitDuration": "0s",
           "totalDuration": "588s",
-          "startTime": "2022-08-23T13:22:52Z",
+          "startTime": "2022-08-22T13:22:52Z",
           "vehicleLoads": {
             "weight": {
               "amount": "17"
@@ -3421,7 +3421,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T13:32:40Z",
+          "startTime": "2022-08-22T13:32:40Z",
           "vehicleLoads": {
             "weight": {
               "amount": "16"
@@ -3433,7 +3433,7 @@
           "travelDistanceMeters": 928.0,
           "waitDuration": "0s",
           "totalDuration": "175s",
-          "startTime": "2022-08-23T13:32:40Z",
+          "startTime": "2022-08-22T13:32:40Z",
           "vehicleLoads": {
             "weight": {
               "amount": "15"
@@ -3444,7 +3444,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T13:35:35Z",
+          "startTime": "2022-08-22T13:35:35Z",
           "vehicleLoads": {
             "weight": {
               "amount": "14"
@@ -3456,7 +3456,7 @@
           "travelDistanceMeters": 892.0,
           "waitDuration": "0s",
           "totalDuration": "129s",
-          "startTime": "2022-08-23T13:35:35Z",
+          "startTime": "2022-08-22T13:35:35Z",
           "vehicleLoads": {
             "weight": {
               "amount": "13"
@@ -3468,7 +3468,7 @@
           "travelDistanceMeters": 1120.0,
           "waitDuration": "0s",
           "totalDuration": "135s",
-          "startTime": "2022-08-23T13:37:44Z",
+          "startTime": "2022-08-22T13:37:44Z",
           "vehicleLoads": {
             "weight": {
               "amount": "12"
@@ -3480,7 +3480,7 @@
           "travelDistanceMeters": 3275.0,
           "waitDuration": "0s",
           "totalDuration": "358s",
-          "startTime": "2022-08-23T13:39:59Z",
+          "startTime": "2022-08-22T13:39:59Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -3492,7 +3492,7 @@
           "travelDistanceMeters": 2805.0,
           "waitDuration": "0s",
           "totalDuration": "436s",
-          "startTime": "2022-08-23T13:45:57Z",
+          "startTime": "2022-08-22T13:45:57Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -3504,7 +3504,7 @@
           "travelDistanceMeters": 1243.0,
           "waitDuration": "0s",
           "totalDuration": "207s",
-          "startTime": "2022-08-23T13:53:13Z",
+          "startTime": "2022-08-22T13:53:13Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -3516,7 +3516,7 @@
           "travelDistanceMeters": 1289.0,
           "waitDuration": "0s",
           "totalDuration": "313s",
-          "startTime": "2022-08-23T13:56:40Z",
+          "startTime": "2022-08-22T13:56:40Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -3528,7 +3528,7 @@
           "travelDistanceMeters": 2701.0,
           "waitDuration": "0s",
           "totalDuration": "557s",
-          "startTime": "2022-08-23T14:01:53Z",
+          "startTime": "2022-08-22T14:01:53Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -3540,7 +3540,7 @@
           "travelDistanceMeters": 85.0,
           "waitDuration": "0s",
           "totalDuration": "31s",
-          "startTime": "2022-08-23T14:11:10Z",
+          "startTime": "2022-08-22T14:11:10Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -3551,7 +3551,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T14:11:41Z",
+          "startTime": "2022-08-22T14:11:41Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -3562,7 +3562,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T14:11:41Z",
+          "startTime": "2022-08-22T14:11:41Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -3573,7 +3573,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T14:11:41Z",
+          "startTime": "2022-08-22T14:11:41Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -3585,7 +3585,7 @@
           "travelDistanceMeters": 4729.0,
           "waitDuration": "0s",
           "totalDuration": "592s",
-          "startTime": "2022-08-23T14:11:41Z",
+          "startTime": "2022-08-22T14:11:41Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -3597,7 +3597,7 @@
           "travelDistanceMeters": 826.0,
           "waitDuration": "0s",
           "totalDuration": "202s",
-          "startTime": "2022-08-23T14:21:33Z",
+          "startTime": "2022-08-22T14:21:33Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -3609,7 +3609,7 @@
           "travelDistanceMeters": 25684.0,
           "waitDuration": "0s",
           "totalDuration": "1720s",
-          "startTime": "2022-08-23T14:24:55Z",
+          "startTime": "2022-08-22T14:24:55Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -3718,18 +3718,18 @@
       ],
       "vehicleDetour": "6815s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 56.791666666666664
+        "model.vehicles.cost_per_traveled_hour": 37.861111111111114
       },
-      "routeTotalCost": 56.791666666666664
+      "routeTotalCost": 37.861111111111114
     },
     {
       "vehicleIndex": 13,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T16:57:40Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T16:57:40Z",
       "visits": [
         {
           "shipmentIndex": 188,
-          "startTime": "2022-08-23T13:25:48Z",
+          "startTime": "2022-08-22T13:25:48Z",
           "demands": [
             {
               "type": "weight",
@@ -3752,7 +3752,7 @@
         },
         {
           "shipmentIndex": 5,
-          "startTime": "2022-08-23T13:26:56Z",
+          "startTime": "2022-08-22T13:26:56Z",
           "demands": [
             {
               "type": "weight",
@@ -3775,7 +3775,7 @@
         },
         {
           "shipmentIndex": 189,
-          "startTime": "2022-08-23T13:30:31Z",
+          "startTime": "2022-08-22T13:30:31Z",
           "demands": [
             {
               "type": "weight",
@@ -3798,7 +3798,7 @@
         },
         {
           "shipmentIndex": 11,
-          "startTime": "2022-08-23T13:43:01Z",
+          "startTime": "2022-08-22T13:43:01Z",
           "demands": [
             {
               "type": "weight",
@@ -3821,7 +3821,7 @@
         },
         {
           "shipmentIndex": 211,
-          "startTime": "2022-08-23T13:52:42Z",
+          "startTime": "2022-08-22T13:52:42Z",
           "demands": [
             {
               "type": "weight",
@@ -3844,7 +3844,7 @@
         },
         {
           "shipmentIndex": 10,
-          "startTime": "2022-08-23T13:59:40Z",
+          "startTime": "2022-08-22T13:59:40Z",
           "demands": [
             {
               "type": "weight",
@@ -3867,7 +3867,7 @@
         },
         {
           "shipmentIndex": 169,
-          "startTime": "2022-08-23T14:12:10Z",
+          "startTime": "2022-08-22T14:12:10Z",
           "demands": [
             {
               "type": "weight",
@@ -3890,7 +3890,7 @@
         },
         {
           "shipmentIndex": 168,
-          "startTime": "2022-08-23T14:12:10Z",
+          "startTime": "2022-08-22T14:12:10Z",
           "demands": [
             {
               "type": "weight",
@@ -3913,7 +3913,7 @@
         },
         {
           "shipmentIndex": 167,
-          "startTime": "2022-08-23T14:17:22Z",
+          "startTime": "2022-08-22T14:17:22Z",
           "demands": [
             {
               "type": "weight",
@@ -3936,7 +3936,7 @@
         },
         {
           "shipmentIndex": 40,
-          "startTime": "2022-08-23T16:00:00Z",
+          "startTime": "2022-08-22T16:00:00Z",
           "demands": [
             {
               "type": "weight",
@@ -3959,7 +3959,7 @@
         },
         {
           "shipmentIndex": 205,
-          "startTime": "2022-08-23T16:05:51Z",
+          "startTime": "2022-08-22T16:05:51Z",
           "demands": [
             {
               "type": "weight",
@@ -3982,7 +3982,7 @@
         },
         {
           "shipmentIndex": 164,
-          "startTime": "2022-08-23T16:06:16Z",
+          "startTime": "2022-08-22T16:06:16Z",
           "demands": [
             {
               "type": "weight",
@@ -4005,7 +4005,7 @@
         },
         {
           "shipmentIndex": 79,
-          "startTime": "2022-08-23T16:11:35Z",
+          "startTime": "2022-08-22T16:11:35Z",
           "demands": [
             {
               "type": "weight",
@@ -4028,7 +4028,7 @@
         },
         {
           "shipmentIndex": 183,
-          "startTime": "2022-08-23T16:14:35Z",
+          "startTime": "2022-08-22T16:14:35Z",
           "demands": [
             {
               "type": "weight",
@@ -4051,7 +4051,7 @@
         },
         {
           "shipmentIndex": 129,
-          "startTime": "2022-08-23T16:21:32Z",
+          "startTime": "2022-08-22T16:21:32Z",
           "demands": [
             {
               "type": "weight",
@@ -4074,7 +4074,7 @@
         },
         {
           "shipmentIndex": 33,
-          "startTime": "2022-08-23T16:21:32Z",
+          "startTime": "2022-08-22T16:21:32Z",
           "demands": [
             {
               "type": "weight",
@@ -4097,7 +4097,7 @@
         },
         {
           "shipmentIndex": 3,
-          "startTime": "2022-08-23T16:30:08Z",
+          "startTime": "2022-08-22T16:30:08Z",
           "demands": [
             {
               "type": "weight",
@@ -4120,7 +4120,7 @@
         },
         {
           "shipmentIndex": 102,
-          "startTime": "2022-08-23T16:43:47Z",
+          "startTime": "2022-08-22T16:43:47Z",
           "demands": [
             {
               "type": "weight",
@@ -4148,7 +4148,7 @@
           "travelDistanceMeters": 19406.0,
           "waitDuration": "0s",
           "totalDuration": "1548s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "18"
@@ -4160,7 +4160,7 @@
           "travelDistanceMeters": 450.0,
           "waitDuration": "0s",
           "totalDuration": "68s",
-          "startTime": "2022-08-23T13:25:48Z",
+          "startTime": "2022-08-22T13:25:48Z",
           "vehicleLoads": {
             "weight": {
               "amount": "17"
@@ -4172,7 +4172,7 @@
           "travelDistanceMeters": 1431.0,
           "waitDuration": "0s",
           "totalDuration": "215s",
-          "startTime": "2022-08-23T13:26:56Z",
+          "startTime": "2022-08-22T13:26:56Z",
           "vehicleLoads": {
             "weight": {
               "amount": "16"
@@ -4184,7 +4184,7 @@
           "travelDistanceMeters": 4656.0,
           "waitDuration": "0s",
           "totalDuration": "750s",
-          "startTime": "2022-08-23T13:30:31Z",
+          "startTime": "2022-08-22T13:30:31Z",
           "vehicleLoads": {
             "weight": {
               "amount": "15"
@@ -4196,7 +4196,7 @@
           "travelDistanceMeters": 3826.0,
           "waitDuration": "0s",
           "totalDuration": "581s",
-          "startTime": "2022-08-23T13:43:01Z",
+          "startTime": "2022-08-22T13:43:01Z",
           "vehicleLoads": {
             "weight": {
               "amount": "14"
@@ -4208,7 +4208,7 @@
           "travelDistanceMeters": 3815.0,
           "waitDuration": "0s",
           "totalDuration": "418s",
-          "startTime": "2022-08-23T13:52:42Z",
+          "startTime": "2022-08-22T13:52:42Z",
           "vehicleLoads": {
             "weight": {
               "amount": "13"
@@ -4220,7 +4220,7 @@
           "travelDistanceMeters": 3793.0,
           "waitDuration": "0s",
           "totalDuration": "750s",
-          "startTime": "2022-08-23T13:59:40Z",
+          "startTime": "2022-08-22T13:59:40Z",
           "vehicleLoads": {
             "weight": {
               "amount": "12"
@@ -4231,7 +4231,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T14:12:10Z",
+          "startTime": "2022-08-22T14:12:10Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -4243,7 +4243,7 @@
           "travelDistanceMeters": 1565.0,
           "waitDuration": "0s",
           "totalDuration": "312s",
-          "startTime": "2022-08-23T14:12:10Z",
+          "startTime": "2022-08-22T14:12:10Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -4255,7 +4255,7 @@
           "travelDistanceMeters": 810.0,
           "waitDuration": "6029s",
           "totalDuration": "6158s",
-          "startTime": "2022-08-23T14:17:22Z",
+          "startTime": "2022-08-22T14:17:22Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -4267,7 +4267,7 @@
           "travelDistanceMeters": 1515.0,
           "waitDuration": "0s",
           "totalDuration": "351s",
-          "startTime": "2022-08-23T16:00:00Z",
+          "startTime": "2022-08-22T16:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -4279,7 +4279,7 @@
           "travelDistanceMeters": 114.0,
           "waitDuration": "0s",
           "totalDuration": "25s",
-          "startTime": "2022-08-23T16:05:51Z",
+          "startTime": "2022-08-22T16:05:51Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -4291,7 +4291,7 @@
           "travelDistanceMeters": 1585.0,
           "waitDuration": "0s",
           "totalDuration": "319s",
-          "startTime": "2022-08-23T16:06:16Z",
+          "startTime": "2022-08-22T16:06:16Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -4303,7 +4303,7 @@
           "travelDistanceMeters": 619.0,
           "waitDuration": "0s",
           "totalDuration": "180s",
-          "startTime": "2022-08-23T16:11:35Z",
+          "startTime": "2022-08-22T16:11:35Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -4315,7 +4315,7 @@
           "travelDistanceMeters": 2665.0,
           "waitDuration": "0s",
           "totalDuration": "417s",
-          "startTime": "2022-08-23T16:14:35Z",
+          "startTime": "2022-08-22T16:14:35Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -4326,7 +4326,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T16:21:32Z",
+          "startTime": "2022-08-22T16:21:32Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -4338,7 +4338,7 @@
           "travelDistanceMeters": 4700.0,
           "waitDuration": "0s",
           "totalDuration": "516s",
-          "startTime": "2022-08-23T16:21:32Z",
+          "startTime": "2022-08-22T16:21:32Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -4350,7 +4350,7 @@
           "travelDistanceMeters": 10560.0,
           "waitDuration": "0s",
           "totalDuration": "819s",
-          "startTime": "2022-08-23T16:30:08Z",
+          "startTime": "2022-08-22T16:30:08Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -4362,7 +4362,7 @@
           "travelDistanceMeters": 11850.0,
           "waitDuration": "0s",
           "totalDuration": "833s",
-          "startTime": "2022-08-23T16:43:47Z",
+          "startTime": "2022-08-22T16:43:47Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -4466,18 +4466,18 @@
       ],
       "vehicleDetour": "14260s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 68.59166666666667
+        "model.vehicles.cost_per_traveled_hour": 45.727777777777774
       },
-      "routeTotalCost": 68.59166666666667
+      "routeTotalCost": 45.727777777777774
     },
     {
       "vehicleIndex": 14,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T16:28:33Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T16:28:33Z",
       "visits": [
         {
           "shipmentIndex": 37,
-          "startTime": "2022-08-23T13:12:58Z",
+          "startTime": "2022-08-22T13:12:58Z",
           "demands": [
             {
               "type": "weight",
@@ -4500,7 +4500,7 @@
         },
         {
           "shipmentIndex": 165,
-          "startTime": "2022-08-23T13:15:58Z",
+          "startTime": "2022-08-22T13:15:58Z",
           "demands": [
             {
               "type": "weight",
@@ -4523,7 +4523,7 @@
         },
         {
           "shipmentIndex": 198,
-          "startTime": "2022-08-23T13:17:41Z",
+          "startTime": "2022-08-22T13:17:41Z",
           "demands": [
             {
               "type": "weight",
@@ -4546,7 +4546,7 @@
         },
         {
           "shipmentIndex": 142,
-          "startTime": "2022-08-23T13:19:07Z",
+          "startTime": "2022-08-22T13:19:07Z",
           "demands": [
             {
               "type": "weight",
@@ -4569,7 +4569,7 @@
         },
         {
           "shipmentIndex": 31,
-          "startTime": "2022-08-23T15:00:00Z",
+          "startTime": "2022-08-22T15:00:00Z",
           "demands": [
             {
               "type": "weight",
@@ -4592,7 +4592,7 @@
         },
         {
           "shipmentIndex": 180,
-          "startTime": "2022-08-23T15:00:20Z",
+          "startTime": "2022-08-22T15:00:20Z",
           "demands": [
             {
               "type": "weight",
@@ -4615,7 +4615,7 @@
         },
         {
           "shipmentIndex": 220,
-          "startTime": "2022-08-23T15:05:55Z",
+          "startTime": "2022-08-22T15:05:55Z",
           "demands": [
             {
               "type": "weight",
@@ -4638,7 +4638,7 @@
         },
         {
           "shipmentIndex": 57,
-          "startTime": "2022-08-23T15:12:08Z",
+          "startTime": "2022-08-22T15:12:08Z",
           "demands": [
             {
               "type": "weight",
@@ -4661,7 +4661,7 @@
         },
         {
           "shipmentIndex": 209,
-          "startTime": "2022-08-23T15:13:20Z",
+          "startTime": "2022-08-22T15:13:20Z",
           "demands": [
             {
               "type": "weight",
@@ -4684,7 +4684,7 @@
         },
         {
           "shipmentIndex": 124,
-          "startTime": "2022-08-23T15:15:54Z",
+          "startTime": "2022-08-22T15:15:54Z",
           "demands": [
             {
               "type": "weight",
@@ -4707,7 +4707,7 @@
         },
         {
           "shipmentIndex": 137,
-          "startTime": "2022-08-23T15:22:30Z",
+          "startTime": "2022-08-22T15:22:30Z",
           "demands": [
             {
               "type": "weight",
@@ -4730,7 +4730,7 @@
         },
         {
           "shipmentIndex": 12,
-          "startTime": "2022-08-23T15:27:26Z",
+          "startTime": "2022-08-22T15:27:26Z",
           "demands": [
             {
               "type": "weight",
@@ -4753,7 +4753,7 @@
         },
         {
           "shipmentIndex": 147,
-          "startTime": "2022-08-23T15:32:46Z",
+          "startTime": "2022-08-22T15:32:46Z",
           "demands": [
             {
               "type": "weight",
@@ -4776,7 +4776,7 @@
         },
         {
           "shipmentIndex": 199,
-          "startTime": "2022-08-23T15:39:22Z",
+          "startTime": "2022-08-22T15:39:22Z",
           "demands": [
             {
               "type": "weight",
@@ -4799,7 +4799,7 @@
         },
         {
           "shipmentIndex": 130,
-          "startTime": "2022-08-23T15:46:47Z",
+          "startTime": "2022-08-22T15:46:47Z",
           "demands": [
             {
               "type": "weight",
@@ -4822,7 +4822,7 @@
         },
         {
           "shipmentIndex": 43,
-          "startTime": "2022-08-23T15:55:21Z",
+          "startTime": "2022-08-22T15:55:21Z",
           "demands": [
             {
               "type": "weight",
@@ -4845,7 +4845,7 @@
         },
         {
           "shipmentIndex": 90,
-          "startTime": "2022-08-23T16:00:02Z",
+          "startTime": "2022-08-22T16:00:02Z",
           "demands": [
             {
               "type": "weight",
@@ -4868,7 +4868,7 @@
         },
         {
           "shipmentIndex": 119,
-          "startTime": "2022-08-23T16:10:46Z",
+          "startTime": "2022-08-22T16:10:46Z",
           "demands": [
             {
               "type": "weight",
@@ -4891,7 +4891,7 @@
         },
         {
           "shipmentIndex": 120,
-          "startTime": "2022-08-23T16:12:06Z",
+          "startTime": "2022-08-22T16:12:06Z",
           "demands": [
             {
               "type": "weight",
@@ -4914,7 +4914,7 @@
         },
         {
           "shipmentIndex": 16,
-          "startTime": "2022-08-23T16:18:05Z",
+          "startTime": "2022-08-22T16:18:05Z",
           "demands": [
             {
               "type": "weight",
@@ -4942,7 +4942,7 @@
           "travelDistanceMeters": 8996.0,
           "waitDuration": "0s",
           "totalDuration": "778s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "20"
@@ -4954,7 +4954,7 @@
           "travelDistanceMeters": 852.0,
           "waitDuration": "0s",
           "totalDuration": "180s",
-          "startTime": "2022-08-23T13:12:58Z",
+          "startTime": "2022-08-22T13:12:58Z",
           "vehicleLoads": {
             "weight": {
               "amount": "19"
@@ -4966,7 +4966,7 @@
           "travelDistanceMeters": 767.0,
           "waitDuration": "0s",
           "totalDuration": "103s",
-          "startTime": "2022-08-23T13:15:58Z",
+          "startTime": "2022-08-22T13:15:58Z",
           "vehicleLoads": {
             "weight": {
               "amount": "18"
@@ -4978,7 +4978,7 @@
           "travelDistanceMeters": 524.0,
           "waitDuration": "0s",
           "totalDuration": "86s",
-          "startTime": "2022-08-23T13:17:41Z",
+          "startTime": "2022-08-22T13:17:41Z",
           "vehicleLoads": {
             "weight": {
               "amount": "17"
@@ -4990,7 +4990,7 @@
           "travelDistanceMeters": 3045.0,
           "waitDuration": "5664s",
           "totalDuration": "6053s",
-          "startTime": "2022-08-23T13:19:07Z",
+          "startTime": "2022-08-22T13:19:07Z",
           "vehicleLoads": {
             "weight": {
               "amount": "16"
@@ -5002,7 +5002,7 @@
           "travelDistanceMeters": 87.0,
           "waitDuration": "0s",
           "totalDuration": "20s",
-          "startTime": "2022-08-23T15:00:00Z",
+          "startTime": "2022-08-22T15:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "15"
@@ -5014,7 +5014,7 @@
           "travelDistanceMeters": 1803.0,
           "waitDuration": "0s",
           "totalDuration": "335s",
-          "startTime": "2022-08-23T15:00:20Z",
+          "startTime": "2022-08-22T15:00:20Z",
           "vehicleLoads": {
             "weight": {
               "amount": "14"
@@ -5026,7 +5026,7 @@
           "travelDistanceMeters": 1314.0,
           "waitDuration": "0s",
           "totalDuration": "373s",
-          "startTime": "2022-08-23T15:05:55Z",
+          "startTime": "2022-08-22T15:05:55Z",
           "vehicleLoads": {
             "weight": {
               "amount": "13"
@@ -5038,7 +5038,7 @@
           "travelDistanceMeters": 215.0,
           "waitDuration": "0s",
           "totalDuration": "72s",
-          "startTime": "2022-08-23T15:12:08Z",
+          "startTime": "2022-08-22T15:12:08Z",
           "vehicleLoads": {
             "weight": {
               "amount": "12"
@@ -5050,7 +5050,7 @@
           "travelDistanceMeters": 752.0,
           "waitDuration": "0s",
           "totalDuration": "154s",
-          "startTime": "2022-08-23T15:13:20Z",
+          "startTime": "2022-08-22T15:13:20Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -5062,7 +5062,7 @@
           "travelDistanceMeters": 4039.0,
           "waitDuration": "0s",
           "totalDuration": "396s",
-          "startTime": "2022-08-23T15:15:54Z",
+          "startTime": "2022-08-22T15:15:54Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -5074,7 +5074,7 @@
           "travelDistanceMeters": 2530.0,
           "waitDuration": "0s",
           "totalDuration": "296s",
-          "startTime": "2022-08-23T15:22:30Z",
+          "startTime": "2022-08-22T15:22:30Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -5086,7 +5086,7 @@
           "travelDistanceMeters": 1733.0,
           "waitDuration": "0s",
           "totalDuration": "320s",
-          "startTime": "2022-08-23T15:27:26Z",
+          "startTime": "2022-08-22T15:27:26Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -5098,7 +5098,7 @@
           "travelDistanceMeters": 1735.0,
           "waitDuration": "0s",
           "totalDuration": "396s",
-          "startTime": "2022-08-23T15:32:46Z",
+          "startTime": "2022-08-22T15:32:46Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -5110,7 +5110,7 @@
           "travelDistanceMeters": 4742.0,
           "waitDuration": "0s",
           "totalDuration": "445s",
-          "startTime": "2022-08-23T15:39:22Z",
+          "startTime": "2022-08-22T15:39:22Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -5122,7 +5122,7 @@
           "travelDistanceMeters": 3886.0,
           "waitDuration": "0s",
           "totalDuration": "514s",
-          "startTime": "2022-08-23T15:46:47Z",
+          "startTime": "2022-08-22T15:46:47Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -5134,7 +5134,7 @@
           "travelDistanceMeters": 1606.0,
           "waitDuration": "0s",
           "totalDuration": "281s",
-          "startTime": "2022-08-23T15:55:21Z",
+          "startTime": "2022-08-22T15:55:21Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -5146,7 +5146,7 @@
           "travelDistanceMeters": 8366.0,
           "waitDuration": "0s",
           "totalDuration": "644s",
-          "startTime": "2022-08-23T16:00:02Z",
+          "startTime": "2022-08-22T16:00:02Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -5158,7 +5158,7 @@
           "travelDistanceMeters": 320.0,
           "waitDuration": "0s",
           "totalDuration": "80s",
-          "startTime": "2022-08-23T16:10:46Z",
+          "startTime": "2022-08-22T16:10:46Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -5170,7 +5170,7 @@
           "travelDistanceMeters": 5881.0,
           "waitDuration": "0s",
           "totalDuration": "359s",
-          "startTime": "2022-08-23T16:12:06Z",
+          "startTime": "2022-08-22T16:12:06Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -5182,7 +5182,7 @@
           "travelDistanceMeters": 8546.0,
           "waitDuration": "0s",
           "totalDuration": "628s",
-          "startTime": "2022-08-23T16:18:05Z",
+          "startTime": "2022-08-22T16:18:05Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -5296,18 +5296,18 @@
       ],
       "vehicleDetour": "12513s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 57.075
+        "model.vehicles.cost_per_traveled_hour": 38.05
       },
-      "routeTotalCost": 57.075
+      "routeTotalCost": 38.05
     },
     {
       "vehicleIndex": 15,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T15:11:44Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T15:11:44Z",
       "visits": [
         {
           "shipmentIndex": 84,
-          "startTime": "2022-08-23T13:29:43Z",
+          "startTime": "2022-08-22T13:29:43Z",
           "demands": [
             {
               "type": "weight",
@@ -5330,7 +5330,7 @@
         },
         {
           "shipmentIndex": 200,
-          "startTime": "2022-08-23T13:43:09Z",
+          "startTime": "2022-08-22T13:43:09Z",
           "demands": [
             {
               "type": "weight",
@@ -5353,7 +5353,7 @@
         },
         {
           "shipmentIndex": 29,
-          "startTime": "2022-08-23T13:49:46Z",
+          "startTime": "2022-08-22T13:49:46Z",
           "demands": [
             {
               "type": "weight",
@@ -5376,7 +5376,7 @@
         },
         {
           "shipmentIndex": 28,
-          "startTime": "2022-08-23T13:50:24Z",
+          "startTime": "2022-08-22T13:50:24Z",
           "demands": [
             {
               "type": "weight",
@@ -5399,7 +5399,7 @@
         },
         {
           "shipmentIndex": 221,
-          "startTime": "2022-08-23T13:56:32Z",
+          "startTime": "2022-08-22T13:56:32Z",
           "demands": [
             {
               "type": "weight",
@@ -5422,7 +5422,7 @@
         },
         {
           "shipmentIndex": 87,
-          "startTime": "2022-08-23T13:56:32Z",
+          "startTime": "2022-08-22T13:56:32Z",
           "demands": [
             {
               "type": "weight",
@@ -5445,7 +5445,7 @@
         },
         {
           "shipmentIndex": 86,
-          "startTime": "2022-08-23T13:56:32Z",
+          "startTime": "2022-08-22T13:56:32Z",
           "demands": [
             {
               "type": "weight",
@@ -5468,7 +5468,7 @@
         },
         {
           "shipmentIndex": 161,
-          "startTime": "2022-08-23T13:57:27Z",
+          "startTime": "2022-08-22T13:57:27Z",
           "demands": [
             {
               "type": "weight",
@@ -5491,7 +5491,7 @@
         },
         {
           "shipmentIndex": 175,
-          "startTime": "2022-08-23T14:04:30Z",
+          "startTime": "2022-08-22T14:04:30Z",
           "demands": [
             {
               "type": "weight",
@@ -5514,7 +5514,7 @@
         },
         {
           "shipmentIndex": 197,
-          "startTime": "2022-08-23T14:12:26Z",
+          "startTime": "2022-08-22T14:12:26Z",
           "demands": [
             {
               "type": "weight",
@@ -5537,7 +5537,7 @@
         },
         {
           "shipmentIndex": 207,
-          "startTime": "2022-08-23T14:24:40Z",
+          "startTime": "2022-08-22T14:24:40Z",
           "demands": [
             {
               "type": "weight",
@@ -5560,7 +5560,7 @@
         },
         {
           "shipmentIndex": 166,
-          "startTime": "2022-08-23T14:28:43Z",
+          "startTime": "2022-08-22T14:28:43Z",
           "demands": [
             {
               "type": "weight",
@@ -5583,7 +5583,7 @@
         },
         {
           "shipmentIndex": 194,
-          "startTime": "2022-08-23T14:33:47Z",
+          "startTime": "2022-08-22T14:33:47Z",
           "demands": [
             {
               "type": "weight",
@@ -5606,7 +5606,7 @@
         },
         {
           "shipmentIndex": 36,
-          "startTime": "2022-08-23T14:36:55Z",
+          "startTime": "2022-08-22T14:36:55Z",
           "demands": [
             {
               "type": "weight",
@@ -5629,7 +5629,7 @@
         },
         {
           "shipmentIndex": 2,
-          "startTime": "2022-08-23T14:40:17Z",
+          "startTime": "2022-08-22T14:40:17Z",
           "demands": [
             {
               "type": "weight",
@@ -5652,7 +5652,7 @@
         },
         {
           "shipmentIndex": 39,
-          "startTime": "2022-08-23T14:40:17Z",
+          "startTime": "2022-08-22T14:40:17Z",
           "demands": [
             {
               "type": "weight",
@@ -5675,7 +5675,7 @@
         },
         {
           "shipmentIndex": 66,
-          "startTime": "2022-08-23T14:50:00Z",
+          "startTime": "2022-08-22T14:50:00Z",
           "demands": [
             {
               "type": "weight",
@@ -5698,7 +5698,7 @@
         },
         {
           "shipmentIndex": 46,
-          "startTime": "2022-08-23T14:51:26Z",
+          "startTime": "2022-08-22T14:51:26Z",
           "demands": [
             {
               "type": "weight",
@@ -5721,7 +5721,7 @@
         },
         {
           "shipmentIndex": 44,
-          "startTime": "2022-08-23T15:02:19Z",
+          "startTime": "2022-08-22T15:02:19Z",
           "demands": [
             {
               "type": "weight",
@@ -5744,7 +5744,7 @@
         },
         {
           "shipmentIndex": 155,
-          "startTime": "2022-08-23T15:02:20Z",
+          "startTime": "2022-08-22T15:02:20Z",
           "demands": [
             {
               "type": "weight",
@@ -5769,10 +5769,10 @@
       "transitions": [
         {
           "travelDuration": "1783s",
-          "travelDistanceMeters": 25132.0,
+          "travelDistanceMeters": 25065.0,
           "waitDuration": "0s",
           "totalDuration": "1783s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "20"
@@ -5784,7 +5784,7 @@
           "travelDistanceMeters": 8495.0,
           "waitDuration": "0s",
           "totalDuration": "806s",
-          "startTime": "2022-08-23T13:29:43Z",
+          "startTime": "2022-08-22T13:29:43Z",
           "vehicleLoads": {
             "weight": {
               "amount": "19"
@@ -5796,7 +5796,7 @@
           "travelDistanceMeters": 3119.0,
           "waitDuration": "0s",
           "totalDuration": "397s",
-          "startTime": "2022-08-23T13:43:09Z",
+          "startTime": "2022-08-22T13:43:09Z",
           "vehicleLoads": {
             "weight": {
               "amount": "18"
@@ -5808,7 +5808,7 @@
           "travelDistanceMeters": 262.0,
           "waitDuration": "0s",
           "totalDuration": "38s",
-          "startTime": "2022-08-23T13:49:46Z",
+          "startTime": "2022-08-22T13:49:46Z",
           "vehicleLoads": {
             "weight": {
               "amount": "17"
@@ -5820,7 +5820,7 @@
           "travelDistanceMeters": 2575.0,
           "waitDuration": "0s",
           "totalDuration": "368s",
-          "startTime": "2022-08-23T13:50:24Z",
+          "startTime": "2022-08-22T13:50:24Z",
           "vehicleLoads": {
             "weight": {
               "amount": "16"
@@ -5831,7 +5831,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T13:56:32Z",
+          "startTime": "2022-08-22T13:56:32Z",
           "vehicleLoads": {
             "weight": {
               "amount": "15"
@@ -5842,7 +5842,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T13:56:32Z",
+          "startTime": "2022-08-22T13:56:32Z",
           "vehicleLoads": {
             "weight": {
               "amount": "14"
@@ -5854,7 +5854,7 @@
           "travelDistanceMeters": 386.0,
           "waitDuration": "0s",
           "totalDuration": "55s",
-          "startTime": "2022-08-23T13:56:32Z",
+          "startTime": "2022-08-22T13:56:32Z",
           "vehicleLoads": {
             "weight": {
               "amount": "13"
@@ -5866,7 +5866,7 @@
           "travelDistanceMeters": 3702.0,
           "waitDuration": "0s",
           "totalDuration": "423s",
-          "startTime": "2022-08-23T13:57:27Z",
+          "startTime": "2022-08-22T13:57:27Z",
           "vehicleLoads": {
             "weight": {
               "amount": "12"
@@ -5878,7 +5878,7 @@
           "travelDistanceMeters": 3440.0,
           "waitDuration": "0s",
           "totalDuration": "476s",
-          "startTime": "2022-08-23T14:04:30Z",
+          "startTime": "2022-08-22T14:04:30Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -5890,7 +5890,7 @@
           "travelDistanceMeters": 5758.0,
           "waitDuration": "0s",
           "totalDuration": "734s",
-          "startTime": "2022-08-23T14:12:26Z",
+          "startTime": "2022-08-22T14:12:26Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -5902,7 +5902,7 @@
           "travelDistanceMeters": 2258.0,
           "waitDuration": "0s",
           "totalDuration": "243s",
-          "startTime": "2022-08-23T14:24:40Z",
+          "startTime": "2022-08-22T14:24:40Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -5914,7 +5914,7 @@
           "travelDistanceMeters": 1284.0,
           "waitDuration": "0s",
           "totalDuration": "304s",
-          "startTime": "2022-08-23T14:28:43Z",
+          "startTime": "2022-08-22T14:28:43Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -5926,7 +5926,7 @@
           "travelDistanceMeters": 863.0,
           "waitDuration": "0s",
           "totalDuration": "188s",
-          "startTime": "2022-08-23T14:33:47Z",
+          "startTime": "2022-08-22T14:33:47Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -5938,7 +5938,7 @@
           "travelDistanceMeters": 1189.0,
           "waitDuration": "0s",
           "totalDuration": "202s",
-          "startTime": "2022-08-23T14:36:55Z",
+          "startTime": "2022-08-22T14:36:55Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -5949,7 +5949,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T14:40:17Z",
+          "startTime": "2022-08-22T14:40:17Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -5961,7 +5961,7 @@
           "travelDistanceMeters": 8013.0,
           "waitDuration": "0s",
           "totalDuration": "583s",
-          "startTime": "2022-08-23T14:40:17Z",
+          "startTime": "2022-08-22T14:40:17Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -5973,7 +5973,7 @@
           "travelDistanceMeters": 821.0,
           "waitDuration": "0s",
           "totalDuration": "86s",
-          "startTime": "2022-08-23T14:50:00Z",
+          "startTime": "2022-08-22T14:50:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -5985,7 +5985,7 @@
           "travelDistanceMeters": 9210.0,
           "waitDuration": "0s",
           "totalDuration": "653s",
-          "startTime": "2022-08-23T14:51:26Z",
+          "startTime": "2022-08-22T14:51:26Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -5997,7 +5997,7 @@
           "travelDistanceMeters": 4.0,
           "waitDuration": "0s",
           "totalDuration": "1s",
-          "startTime": "2022-08-23T15:02:19Z",
+          "startTime": "2022-08-22T15:02:19Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -6009,7 +6009,7 @@
           "travelDistanceMeters": 6842.0,
           "waitDuration": "0s",
           "totalDuration": "564s",
-          "startTime": "2022-08-23T15:02:20Z",
+          "startTime": "2022-08-22T15:02:20Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -6023,7 +6023,7 @@
         "breakDuration": "0s",
         "visitDuration": "0s",
         "totalDuration": "7904s",
-        "travelDistanceMeters": 83353.0,
+        "travelDistanceMeters": 83286.0,
         "maxLoads": {
           "weight": {
             "amount": "20"
@@ -6038,7 +6038,7 @@
       "travelSteps": [
         {
           "duration": "1783s",
-          "distanceMeters": 25132.0
+          "distanceMeters": 25065.0
         },
         {
           "duration": "806s",
@@ -6120,18 +6120,18 @@
       ],
       "vehicleDetour": "7904s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 65.86666666666666
+        "model.vehicles.cost_per_traveled_hour": 43.91111111111111
       },
-      "routeTotalCost": 65.86666666666666
+      "routeTotalCost": 43.91111111111111
     },
     {
       "vehicleIndex": 16,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T14:58:54Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T14:58:54Z",
       "visits": [
         {
           "shipmentIndex": 131,
-          "startTime": "2022-08-23T13:17:14Z",
+          "startTime": "2022-08-22T13:17:14Z",
           "demands": [
             {
               "type": "weight",
@@ -6154,7 +6154,7 @@
         },
         {
           "shipmentIndex": 126,
-          "startTime": "2022-08-23T13:21:15Z",
+          "startTime": "2022-08-22T13:21:15Z",
           "demands": [
             {
               "type": "weight",
@@ -6177,7 +6177,7 @@
         },
         {
           "shipmentIndex": 154,
-          "startTime": "2022-08-23T13:32:15Z",
+          "startTime": "2022-08-22T13:32:15Z",
           "demands": [
             {
               "type": "weight",
@@ -6200,7 +6200,7 @@
         },
         {
           "shipmentIndex": 92,
-          "startTime": "2022-08-23T13:38:41Z",
+          "startTime": "2022-08-22T13:38:41Z",
           "demands": [
             {
               "type": "weight",
@@ -6223,7 +6223,7 @@
         },
         {
           "shipmentIndex": 48,
-          "startTime": "2022-08-23T13:39:26Z",
+          "startTime": "2022-08-22T13:39:26Z",
           "demands": [
             {
               "type": "weight",
@@ -6246,7 +6246,7 @@
         },
         {
           "shipmentIndex": 47,
-          "startTime": "2022-08-23T13:45:40Z",
+          "startTime": "2022-08-22T13:45:40Z",
           "demands": [
             {
               "type": "weight",
@@ -6269,7 +6269,7 @@
         },
         {
           "shipmentIndex": 4,
-          "startTime": "2022-08-23T13:46:58Z",
+          "startTime": "2022-08-22T13:46:58Z",
           "demands": [
             {
               "type": "weight",
@@ -6292,7 +6292,7 @@
         },
         {
           "shipmentIndex": 187,
-          "startTime": "2022-08-23T13:53:14Z",
+          "startTime": "2022-08-22T13:53:14Z",
           "demands": [
             {
               "type": "weight",
@@ -6315,7 +6315,7 @@
         },
         {
           "shipmentIndex": 58,
-          "startTime": "2022-08-23T13:59:11Z",
+          "startTime": "2022-08-22T13:59:11Z",
           "demands": [
             {
               "type": "weight",
@@ -6338,7 +6338,7 @@
         },
         {
           "shipmentIndex": 50,
-          "startTime": "2022-08-23T14:02:59Z",
+          "startTime": "2022-08-22T14:02:59Z",
           "demands": [
             {
               "type": "weight",
@@ -6361,7 +6361,7 @@
         },
         {
           "shipmentIndex": 158,
-          "startTime": "2022-08-23T14:08:03Z",
+          "startTime": "2022-08-22T14:08:03Z",
           "demands": [
             {
               "type": "weight",
@@ -6384,7 +6384,7 @@
         },
         {
           "shipmentIndex": 172,
-          "startTime": "2022-08-23T14:14:48Z",
+          "startTime": "2022-08-22T14:14:48Z",
           "demands": [
             {
               "type": "weight",
@@ -6407,7 +6407,7 @@
         },
         {
           "shipmentIndex": 89,
-          "startTime": "2022-08-23T14:19:14Z",
+          "startTime": "2022-08-22T14:19:14Z",
           "demands": [
             {
               "type": "weight",
@@ -6430,7 +6430,7 @@
         },
         {
           "shipmentIndex": 223,
-          "startTime": "2022-08-23T14:28:13Z",
+          "startTime": "2022-08-22T14:28:13Z",
           "demands": [
             {
               "type": "weight",
@@ -6453,7 +6453,7 @@
         },
         {
           "shipmentIndex": 195,
-          "startTime": "2022-08-23T14:30:17Z",
+          "startTime": "2022-08-22T14:30:17Z",
           "demands": [
             {
               "type": "weight",
@@ -6476,7 +6476,7 @@
         },
         {
           "shipmentIndex": 32,
-          "startTime": "2022-08-23T14:34:20Z",
+          "startTime": "2022-08-22T14:34:20Z",
           "demands": [
             {
               "type": "weight",
@@ -6499,7 +6499,7 @@
         },
         {
           "shipmentIndex": 106,
-          "startTime": "2022-08-23T14:43:26Z",
+          "startTime": "2022-08-22T14:43:26Z",
           "demands": [
             {
               "type": "weight",
@@ -6522,7 +6522,7 @@
         },
         {
           "shipmentIndex": 59,
-          "startTime": "2022-08-23T14:43:26Z",
+          "startTime": "2022-08-22T14:43:26Z",
           "demands": [
             {
               "type": "weight",
@@ -6550,7 +6550,7 @@
           "travelDistanceMeters": 11952.0,
           "waitDuration": "0s",
           "totalDuration": "1034s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "18"
@@ -6562,7 +6562,7 @@
           "travelDistanceMeters": 891.0,
           "waitDuration": "0s",
           "totalDuration": "241s",
-          "startTime": "2022-08-23T13:17:14Z",
+          "startTime": "2022-08-22T13:17:14Z",
           "vehicleLoads": {
             "weight": {
               "amount": "17"
@@ -6574,7 +6574,7 @@
           "travelDistanceMeters": 6735.0,
           "waitDuration": "0s",
           "totalDuration": "660s",
-          "startTime": "2022-08-23T13:21:15Z",
+          "startTime": "2022-08-22T13:21:15Z",
           "vehicleLoads": {
             "weight": {
               "amount": "16"
@@ -6586,7 +6586,7 @@
           "travelDistanceMeters": 5127.0,
           "waitDuration": "0s",
           "totalDuration": "386s",
-          "startTime": "2022-08-23T13:32:15Z",
+          "startTime": "2022-08-22T13:32:15Z",
           "vehicleLoads": {
             "weight": {
               "amount": "15"
@@ -6598,7 +6598,7 @@
           "travelDistanceMeters": 355.0,
           "waitDuration": "0s",
           "totalDuration": "45s",
-          "startTime": "2022-08-23T13:38:41Z",
+          "startTime": "2022-08-22T13:38:41Z",
           "vehicleLoads": {
             "weight": {
               "amount": "14"
@@ -6610,7 +6610,7 @@
           "travelDistanceMeters": 2669.0,
           "waitDuration": "0s",
           "totalDuration": "374s",
-          "startTime": "2022-08-23T13:39:26Z",
+          "startTime": "2022-08-22T13:39:26Z",
           "vehicleLoads": {
             "weight": {
               "amount": "13"
@@ -6622,7 +6622,7 @@
           "travelDistanceMeters": 259.0,
           "waitDuration": "0s",
           "totalDuration": "78s",
-          "startTime": "2022-08-23T13:45:40Z",
+          "startTime": "2022-08-22T13:45:40Z",
           "vehicleLoads": {
             "weight": {
               "amount": "12"
@@ -6634,7 +6634,7 @@
           "travelDistanceMeters": 2131.0,
           "waitDuration": "0s",
           "totalDuration": "376s",
-          "startTime": "2022-08-23T13:46:58Z",
+          "startTime": "2022-08-22T13:46:58Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -6646,7 +6646,7 @@
           "travelDistanceMeters": 3189.0,
           "waitDuration": "0s",
           "totalDuration": "357s",
-          "startTime": "2022-08-23T13:53:14Z",
+          "startTime": "2022-08-22T13:53:14Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -6658,7 +6658,7 @@
           "travelDistanceMeters": 1533.0,
           "waitDuration": "0s",
           "totalDuration": "228s",
-          "startTime": "2022-08-23T13:59:11Z",
+          "startTime": "2022-08-22T13:59:11Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -6670,7 +6670,7 @@
           "travelDistanceMeters": 1383.0,
           "waitDuration": "0s",
           "totalDuration": "304s",
-          "startTime": "2022-08-23T14:02:59Z",
+          "startTime": "2022-08-22T14:02:59Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -6682,7 +6682,7 @@
           "travelDistanceMeters": 3393.0,
           "waitDuration": "0s",
           "totalDuration": "405s",
-          "startTime": "2022-08-23T14:08:03Z",
+          "startTime": "2022-08-22T14:08:03Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -6694,7 +6694,7 @@
           "travelDistanceMeters": 1979.0,
           "waitDuration": "0s",
           "totalDuration": "266s",
-          "startTime": "2022-08-23T14:14:48Z",
+          "startTime": "2022-08-22T14:14:48Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -6706,7 +6706,7 @@
           "travelDistanceMeters": 4592.0,
           "waitDuration": "0s",
           "totalDuration": "539s",
-          "startTime": "2022-08-23T14:19:14Z",
+          "startTime": "2022-08-22T14:19:14Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -6718,7 +6718,7 @@
           "travelDistanceMeters": 709.0,
           "waitDuration": "0s",
           "totalDuration": "124s",
-          "startTime": "2022-08-23T14:28:13Z",
+          "startTime": "2022-08-22T14:28:13Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -6730,7 +6730,7 @@
           "travelDistanceMeters": 1498.0,
           "waitDuration": "0s",
           "totalDuration": "243s",
-          "startTime": "2022-08-23T14:30:17Z",
+          "startTime": "2022-08-22T14:30:17Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -6742,7 +6742,7 @@
           "travelDistanceMeters": 4550.0,
           "waitDuration": "0s",
           "totalDuration": "546s",
-          "startTime": "2022-08-23T14:34:20Z",
+          "startTime": "2022-08-22T14:34:20Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -6753,7 +6753,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T14:43:26Z",
+          "startTime": "2022-08-22T14:43:26Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -6765,7 +6765,7 @@
           "travelDistanceMeters": 12969.0,
           "waitDuration": "0s",
           "totalDuration": "928s",
-          "startTime": "2022-08-23T14:43:26Z",
+          "startTime": "2022-08-22T14:43:26Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -6870,18 +6870,18 @@
       ],
       "vehicleDetour": "7134s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 59.45
+        "model.vehicles.cost_per_traveled_hour": 39.63333333333333
       },
-      "routeTotalCost": 59.45
+      "routeTotalCost": 39.63333333333333
     },
     {
       "vehicleIndex": 17,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T14:24:13Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T14:24:13Z",
       "visits": [
         {
           "shipmentIndex": 160,
-          "startTime": "2022-08-23T13:04:28Z",
+          "startTime": "2022-08-22T13:04:28Z",
           "demands": [
             {
               "type": "weight",
@@ -6904,7 +6904,7 @@
         },
         {
           "shipmentIndex": 191,
-          "startTime": "2022-08-23T13:14:21Z",
+          "startTime": "2022-08-22T13:14:21Z",
           "demands": [
             {
               "type": "weight",
@@ -6927,7 +6927,7 @@
         },
         {
           "shipmentIndex": 159,
-          "startTime": "2022-08-23T13:19:00Z",
+          "startTime": "2022-08-22T13:19:00Z",
           "demands": [
             {
               "type": "weight",
@@ -6950,7 +6950,7 @@
         },
         {
           "shipmentIndex": 117,
-          "startTime": "2022-08-23T13:25:58Z",
+          "startTime": "2022-08-22T13:25:58Z",
           "demands": [
             {
               "type": "weight",
@@ -6973,7 +6973,7 @@
         },
         {
           "shipmentIndex": 61,
-          "startTime": "2022-08-23T13:28:55Z",
+          "startTime": "2022-08-22T13:28:55Z",
           "demands": [
             {
               "type": "weight",
@@ -6996,7 +6996,7 @@
         },
         {
           "shipmentIndex": 72,
-          "startTime": "2022-08-23T13:32:05Z",
+          "startTime": "2022-08-22T13:32:05Z",
           "demands": [
             {
               "type": "weight",
@@ -7019,7 +7019,7 @@
         },
         {
           "shipmentIndex": 163,
-          "startTime": "2022-08-23T13:34:22Z",
+          "startTime": "2022-08-22T13:34:22Z",
           "demands": [
             {
               "type": "weight",
@@ -7042,7 +7042,7 @@
         },
         {
           "shipmentIndex": 178,
-          "startTime": "2022-08-23T13:37:00Z",
+          "startTime": "2022-08-22T13:37:00Z",
           "demands": [
             {
               "type": "weight",
@@ -7065,7 +7065,7 @@
         },
         {
           "shipmentIndex": 7,
-          "startTime": "2022-08-23T13:38:13Z",
+          "startTime": "2022-08-22T13:38:13Z",
           "demands": [
             {
               "type": "weight",
@@ -7088,7 +7088,7 @@
         },
         {
           "shipmentIndex": 98,
-          "startTime": "2022-08-23T13:39:00Z",
+          "startTime": "2022-08-22T13:39:00Z",
           "demands": [
             {
               "type": "weight",
@@ -7111,7 +7111,7 @@
         },
         {
           "shipmentIndex": 110,
-          "startTime": "2022-08-23T13:43:09Z",
+          "startTime": "2022-08-22T13:43:09Z",
           "demands": [
             {
               "type": "weight",
@@ -7134,7 +7134,7 @@
         },
         {
           "shipmentIndex": 91,
-          "startTime": "2022-08-23T13:43:09Z",
+          "startTime": "2022-08-22T13:43:09Z",
           "demands": [
             {
               "type": "weight",
@@ -7157,7 +7157,7 @@
         },
         {
           "shipmentIndex": 176,
-          "startTime": "2022-08-23T13:46:10Z",
+          "startTime": "2022-08-22T13:46:10Z",
           "demands": [
             {
               "type": "weight",
@@ -7180,7 +7180,7 @@
         },
         {
           "shipmentIndex": 174,
-          "startTime": "2022-08-23T13:47:32Z",
+          "startTime": "2022-08-22T13:47:32Z",
           "demands": [
             {
               "type": "weight",
@@ -7203,7 +7203,7 @@
         },
         {
           "shipmentIndex": 196,
-          "startTime": "2022-08-23T13:51:05Z",
+          "startTime": "2022-08-22T13:51:05Z",
           "demands": [
             {
               "type": "weight",
@@ -7226,7 +7226,7 @@
         },
         {
           "shipmentIndex": 219,
-          "startTime": "2022-08-23T13:54:01Z",
+          "startTime": "2022-08-22T13:54:01Z",
           "demands": [
             {
               "type": "weight",
@@ -7249,7 +7249,7 @@
         },
         {
           "shipmentIndex": 56,
-          "startTime": "2022-08-23T13:57:47Z",
+          "startTime": "2022-08-22T13:57:47Z",
           "demands": [
             {
               "type": "weight",
@@ -7272,7 +7272,7 @@
         },
         {
           "shipmentIndex": 62,
-          "startTime": "2022-08-23T14:02:58Z",
+          "startTime": "2022-08-22T14:02:58Z",
           "demands": [
             {
               "type": "weight",
@@ -7295,7 +7295,7 @@
         },
         {
           "shipmentIndex": 53,
-          "startTime": "2022-08-23T14:06:28Z",
+          "startTime": "2022-08-22T14:06:28Z",
           "demands": [
             {
               "type": "weight",
@@ -7323,7 +7323,7 @@
           "travelDistanceMeters": 1569.0,
           "waitDuration": "0s",
           "totalDuration": "268s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "19"
@@ -7335,7 +7335,7 @@
           "travelDistanceMeters": 4931.0,
           "waitDuration": "0s",
           "totalDuration": "593s",
-          "startTime": "2022-08-23T13:04:28Z",
+          "startTime": "2022-08-22T13:04:28Z",
           "vehicleLoads": {
             "weight": {
               "amount": "18"
@@ -7347,7 +7347,7 @@
           "travelDistanceMeters": 2136.0,
           "waitDuration": "0s",
           "totalDuration": "279s",
-          "startTime": "2022-08-23T13:14:21Z",
+          "startTime": "2022-08-22T13:14:21Z",
           "vehicleLoads": {
             "weight": {
               "amount": "17"
@@ -7359,7 +7359,7 @@
           "travelDistanceMeters": 2376.0,
           "waitDuration": "0s",
           "totalDuration": "418s",
-          "startTime": "2022-08-23T13:19:00Z",
+          "startTime": "2022-08-22T13:19:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "16"
@@ -7371,7 +7371,7 @@
           "travelDistanceMeters": 986.0,
           "waitDuration": "0s",
           "totalDuration": "177s",
-          "startTime": "2022-08-23T13:25:58Z",
+          "startTime": "2022-08-22T13:25:58Z",
           "vehicleLoads": {
             "weight": {
               "amount": "15"
@@ -7383,7 +7383,7 @@
           "travelDistanceMeters": 1103.0,
           "waitDuration": "0s",
           "totalDuration": "190s",
-          "startTime": "2022-08-23T13:28:55Z",
+          "startTime": "2022-08-22T13:28:55Z",
           "vehicleLoads": {
             "weight": {
               "amount": "14"
@@ -7395,7 +7395,7 @@
           "travelDistanceMeters": 672.0,
           "waitDuration": "0s",
           "totalDuration": "137s",
-          "startTime": "2022-08-23T13:32:05Z",
+          "startTime": "2022-08-22T13:32:05Z",
           "vehicleLoads": {
             "weight": {
               "amount": "13"
@@ -7407,7 +7407,7 @@
           "travelDistanceMeters": 922.0,
           "waitDuration": "0s",
           "totalDuration": "158s",
-          "startTime": "2022-08-23T13:34:22Z",
+          "startTime": "2022-08-22T13:34:22Z",
           "vehicleLoads": {
             "weight": {
               "amount": "12"
@@ -7419,7 +7419,7 @@
           "travelDistanceMeters": 423.0,
           "waitDuration": "0s",
           "totalDuration": "73s",
-          "startTime": "2022-08-23T13:37:00Z",
+          "startTime": "2022-08-22T13:37:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -7431,7 +7431,7 @@
           "travelDistanceMeters": 162.0,
           "waitDuration": "0s",
           "totalDuration": "47s",
-          "startTime": "2022-08-23T13:38:13Z",
+          "startTime": "2022-08-22T13:38:13Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -7443,7 +7443,7 @@
           "travelDistanceMeters": 2020.0,
           "waitDuration": "0s",
           "totalDuration": "249s",
-          "startTime": "2022-08-23T13:39:00Z",
+          "startTime": "2022-08-22T13:39:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -7454,7 +7454,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T13:43:09Z",
+          "startTime": "2022-08-22T13:43:09Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -7466,7 +7466,7 @@
           "travelDistanceMeters": 829.0,
           "waitDuration": "0s",
           "totalDuration": "181s",
-          "startTime": "2022-08-23T13:43:09Z",
+          "startTime": "2022-08-22T13:43:09Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -7478,7 +7478,7 @@
           "travelDistanceMeters": 349.0,
           "waitDuration": "0s",
           "totalDuration": "82s",
-          "startTime": "2022-08-23T13:46:10Z",
+          "startTime": "2022-08-22T13:46:10Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -7490,7 +7490,7 @@
           "travelDistanceMeters": 1726.0,
           "waitDuration": "0s",
           "totalDuration": "213s",
-          "startTime": "2022-08-23T13:47:32Z",
+          "startTime": "2022-08-22T13:47:32Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -7502,7 +7502,7 @@
           "travelDistanceMeters": 1335.0,
           "waitDuration": "0s",
           "totalDuration": "176s",
-          "startTime": "2022-08-23T13:51:05Z",
+          "startTime": "2022-08-22T13:51:05Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -7514,7 +7514,7 @@
           "travelDistanceMeters": 1204.0,
           "waitDuration": "0s",
           "totalDuration": "226s",
-          "startTime": "2022-08-23T13:54:01Z",
+          "startTime": "2022-08-22T13:54:01Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -7526,7 +7526,7 @@
           "travelDistanceMeters": 2186.0,
           "waitDuration": "0s",
           "totalDuration": "311s",
-          "startTime": "2022-08-23T13:57:47Z",
+          "startTime": "2022-08-22T13:57:47Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -7538,7 +7538,7 @@
           "travelDistanceMeters": 2226.0,
           "waitDuration": "0s",
           "totalDuration": "210s",
-          "startTime": "2022-08-23T14:02:58Z",
+          "startTime": "2022-08-22T14:02:58Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -7550,7 +7550,7 @@
           "travelDistanceMeters": 15084.0,
           "waitDuration": "0s",
           "totalDuration": "1065s",
-          "startTime": "2022-08-23T14:06:28Z",
+          "startTime": "2022-08-22T14:06:28Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -7659,18 +7659,18 @@
       ],
       "vehicleDetour": "5053s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 42.108333333333334
+        "model.vehicles.cost_per_traveled_hour": 28.072222222222223
       },
-      "routeTotalCost": 42.108333333333334
+      "routeTotalCost": 28.072222222222223
     },
     {
       "vehicleIndex": 18,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T14:23:00Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T14:23:00Z",
       "visits": [
         {
           "shipmentIndex": 77,
-          "startTime": "2022-08-23T13:15:51Z",
+          "startTime": "2022-08-22T13:15:51Z",
           "demands": [
             {
               "type": "weight",
@@ -7693,7 +7693,7 @@
         },
         {
           "shipmentIndex": 135,
-          "startTime": "2022-08-23T13:20:57Z",
+          "startTime": "2022-08-22T13:20:57Z",
           "demands": [
             {
               "type": "weight",
@@ -7716,7 +7716,7 @@
         },
         {
           "shipmentIndex": 157,
-          "startTime": "2022-08-23T13:27:57Z",
+          "startTime": "2022-08-22T13:27:57Z",
           "demands": [
             {
               "type": "weight",
@@ -7739,7 +7739,7 @@
         },
         {
           "shipmentIndex": 115,
-          "startTime": "2022-08-23T13:29:58Z",
+          "startTime": "2022-08-22T13:29:58Z",
           "demands": [
             {
               "type": "weight",
@@ -7762,7 +7762,7 @@
         },
         {
           "shipmentIndex": 190,
-          "startTime": "2022-08-23T13:34:44Z",
+          "startTime": "2022-08-22T13:34:44Z",
           "demands": [
             {
               "type": "weight",
@@ -7785,7 +7785,7 @@
         },
         {
           "shipmentIndex": 177,
-          "startTime": "2022-08-23T13:37:52Z",
+          "startTime": "2022-08-22T13:37:52Z",
           "demands": [
             {
               "type": "weight",
@@ -7808,7 +7808,7 @@
         },
         {
           "shipmentIndex": 148,
-          "startTime": "2022-08-23T13:41:54Z",
+          "startTime": "2022-08-22T13:41:54Z",
           "demands": [
             {
               "type": "weight",
@@ -7831,7 +7831,7 @@
         },
         {
           "shipmentIndex": 75,
-          "startTime": "2022-08-23T13:44:12Z",
+          "startTime": "2022-08-22T13:44:12Z",
           "demands": [
             {
               "type": "weight",
@@ -7854,7 +7854,7 @@
         },
         {
           "shipmentIndex": 78,
-          "startTime": "2022-08-23T13:46:12Z",
+          "startTime": "2022-08-22T13:46:12Z",
           "demands": [
             {
               "type": "weight",
@@ -7877,7 +7877,7 @@
         },
         {
           "shipmentIndex": 218,
-          "startTime": "2022-08-23T13:50:38Z",
+          "startTime": "2022-08-22T13:50:38Z",
           "demands": [
             {
               "type": "weight",
@@ -7900,7 +7900,7 @@
         },
         {
           "shipmentIndex": 22,
-          "startTime": "2022-08-23T13:50:39Z",
+          "startTime": "2022-08-22T13:50:39Z",
           "demands": [
             {
               "type": "weight",
@@ -7923,7 +7923,7 @@
         },
         {
           "shipmentIndex": 24,
-          "startTime": "2022-08-23T13:53:00Z",
+          "startTime": "2022-08-22T13:53:00Z",
           "demands": [
             {
               "type": "weight",
@@ -7946,7 +7946,7 @@
         },
         {
           "shipmentIndex": 143,
-          "startTime": "2022-08-23T13:56:52Z",
+          "startTime": "2022-08-22T13:56:52Z",
           "demands": [
             {
               "type": "weight",
@@ -7969,7 +7969,7 @@
         },
         {
           "shipmentIndex": 144,
-          "startTime": "2022-08-23T14:01:23Z",
+          "startTime": "2022-08-22T14:01:23Z",
           "demands": [
             {
               "type": "weight",
@@ -7992,7 +7992,7 @@
         },
         {
           "shipmentIndex": 149,
-          "startTime": "2022-08-23T14:04:32Z",
+          "startTime": "2022-08-22T14:04:32Z",
           "demands": [
             {
               "type": "weight",
@@ -8015,7 +8015,7 @@
         },
         {
           "shipmentIndex": 121,
-          "startTime": "2022-08-23T14:07:10Z",
+          "startTime": "2022-08-22T14:07:10Z",
           "demands": [
             {
               "type": "weight",
@@ -8038,7 +8038,7 @@
         },
         {
           "shipmentIndex": 69,
-          "startTime": "2022-08-23T14:07:10Z",
+          "startTime": "2022-08-22T14:07:10Z",
           "demands": [
             {
               "type": "weight",
@@ -8061,7 +8061,7 @@
         },
         {
           "shipmentIndex": 42,
-          "startTime": "2022-08-23T14:07:10Z",
+          "startTime": "2022-08-22T14:07:10Z",
           "demands": [
             {
               "type": "weight",
@@ -8084,7 +8084,7 @@
         },
         {
           "shipmentIndex": 95,
-          "startTime": "2022-08-23T14:07:11Z",
+          "startTime": "2022-08-22T14:07:11Z",
           "demands": [
             {
               "type": "weight",
@@ -8107,7 +8107,7 @@
         },
         {
           "shipmentIndex": 17,
-          "startTime": "2022-08-23T14:07:11Z",
+          "startTime": "2022-08-22T14:07:11Z",
           "demands": [
             {
               "type": "weight",
@@ -8132,10 +8132,10 @@
       "transitions": [
         {
           "travelDuration": "951s",
-          "travelDistanceMeters": 11068.0,
+          "travelDistanceMeters": 10895.0,
           "waitDuration": "0s",
           "totalDuration": "951s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "20"
@@ -8147,7 +8147,7 @@
           "travelDistanceMeters": 1495.0,
           "waitDuration": "0s",
           "totalDuration": "306s",
-          "startTime": "2022-08-23T13:15:51Z",
+          "startTime": "2022-08-22T13:15:51Z",
           "vehicleLoads": {
             "weight": {
               "amount": "19"
@@ -8159,7 +8159,7 @@
           "travelDistanceMeters": 3475.0,
           "waitDuration": "0s",
           "totalDuration": "420s",
-          "startTime": "2022-08-23T13:20:57Z",
+          "startTime": "2022-08-22T13:20:57Z",
           "vehicleLoads": {
             "weight": {
               "amount": "18"
@@ -8171,7 +8171,7 @@
           "travelDistanceMeters": 617.0,
           "waitDuration": "0s",
           "totalDuration": "121s",
-          "startTime": "2022-08-23T13:27:57Z",
+          "startTime": "2022-08-22T13:27:57Z",
           "vehicleLoads": {
             "weight": {
               "amount": "17"
@@ -8183,7 +8183,7 @@
           "travelDistanceMeters": 1237.0,
           "waitDuration": "0s",
           "totalDuration": "286s",
-          "startTime": "2022-08-23T13:29:58Z",
+          "startTime": "2022-08-22T13:29:58Z",
           "vehicleLoads": {
             "weight": {
               "amount": "16"
@@ -8195,7 +8195,7 @@
           "travelDistanceMeters": 706.0,
           "waitDuration": "0s",
           "totalDuration": "188s",
-          "startTime": "2022-08-23T13:34:44Z",
+          "startTime": "2022-08-22T13:34:44Z",
           "vehicleLoads": {
             "weight": {
               "amount": "15"
@@ -8207,7 +8207,7 @@
           "travelDistanceMeters": 1518.0,
           "waitDuration": "0s",
           "totalDuration": "242s",
-          "startTime": "2022-08-23T13:37:52Z",
+          "startTime": "2022-08-22T13:37:52Z",
           "vehicleLoads": {
             "weight": {
               "amount": "14"
@@ -8219,7 +8219,7 @@
           "travelDistanceMeters": 629.0,
           "waitDuration": "0s",
           "totalDuration": "138s",
-          "startTime": "2022-08-23T13:41:54Z",
+          "startTime": "2022-08-22T13:41:54Z",
           "vehicleLoads": {
             "weight": {
               "amount": "13"
@@ -8231,7 +8231,7 @@
           "travelDistanceMeters": 728.0,
           "waitDuration": "0s",
           "totalDuration": "120s",
-          "startTime": "2022-08-23T13:44:12Z",
+          "startTime": "2022-08-22T13:44:12Z",
           "vehicleLoads": {
             "weight": {
               "amount": "12"
@@ -8243,7 +8243,7 @@
           "travelDistanceMeters": 2434.0,
           "waitDuration": "0s",
           "totalDuration": "266s",
-          "startTime": "2022-08-23T13:46:12Z",
+          "startTime": "2022-08-22T13:46:12Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -8255,7 +8255,7 @@
           "travelDistanceMeters": 2.0,
           "waitDuration": "0s",
           "totalDuration": "1s",
-          "startTime": "2022-08-23T13:50:38Z",
+          "startTime": "2022-08-22T13:50:38Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -8267,7 +8267,7 @@
           "travelDistanceMeters": 803.0,
           "waitDuration": "0s",
           "totalDuration": "141s",
-          "startTime": "2022-08-23T13:50:39Z",
+          "startTime": "2022-08-22T13:50:39Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -8279,7 +8279,7 @@
           "travelDistanceMeters": 1473.0,
           "waitDuration": "0s",
           "totalDuration": "232s",
-          "startTime": "2022-08-23T13:53:00Z",
+          "startTime": "2022-08-22T13:53:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -8291,7 +8291,7 @@
           "travelDistanceMeters": 1205.0,
           "waitDuration": "0s",
           "totalDuration": "271s",
-          "startTime": "2022-08-23T13:56:52Z",
+          "startTime": "2022-08-22T13:56:52Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -8303,7 +8303,7 @@
           "travelDistanceMeters": 693.0,
           "waitDuration": "0s",
           "totalDuration": "189s",
-          "startTime": "2022-08-23T14:01:23Z",
+          "startTime": "2022-08-22T14:01:23Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -8315,7 +8315,7 @@
           "travelDistanceMeters": 989.0,
           "waitDuration": "0s",
           "totalDuration": "158s",
-          "startTime": "2022-08-23T14:04:32Z",
+          "startTime": "2022-08-22T14:04:32Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -8326,7 +8326,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T14:07:10Z",
+          "startTime": "2022-08-22T14:07:10Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -8338,7 +8338,7 @@
           "travelDistanceMeters": 1.0,
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T14:07:10Z",
+          "startTime": "2022-08-22T14:07:10Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -8350,7 +8350,7 @@
           "travelDistanceMeters": 4.0,
           "waitDuration": "0s",
           "totalDuration": "1s",
-          "startTime": "2022-08-23T14:07:10Z",
+          "startTime": "2022-08-22T14:07:10Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -8361,7 +8361,7 @@
           "travelDuration": "0s",
           "waitDuration": "0s",
           "totalDuration": "0s",
-          "startTime": "2022-08-23T14:07:11Z",
+          "startTime": "2022-08-22T14:07:11Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -8373,7 +8373,7 @@
           "travelDistanceMeters": 10089.0,
           "waitDuration": "0s",
           "totalDuration": "949s",
-          "startTime": "2022-08-23T14:07:11Z",
+          "startTime": "2022-08-22T14:07:11Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -8387,7 +8387,7 @@
         "breakDuration": "0s",
         "visitDuration": "0s",
         "totalDuration": "4980s",
-        "travelDistanceMeters": 39166.0,
+        "travelDistanceMeters": 38993.0,
         "maxLoads": {
           "weight": {
             "amount": "20"
@@ -8402,7 +8402,7 @@
       "travelSteps": [
         {
           "duration": "951s",
-          "distanceMeters": 11068.0
+          "distanceMeters": 10895.0
         },
         {
           "duration": "306s",
@@ -8485,18 +8485,18 @@
       ],
       "vehicleDetour": "4980s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 41.5
+        "model.vehicles.cost_per_traveled_hour": 27.666666666666668
       },
-      "routeTotalCost": 41.5
+      "routeTotalCost": 27.666666666666668
     },
     {
       "vehicleIndex": 19,
-      "vehicleStartTime": "2022-08-23T13:00:00Z",
-      "vehicleEndTime": "2022-08-23T14:50:31Z",
+      "vehicleStartTime": "2022-08-22T13:00:00Z",
+      "vehicleEndTime": "2022-08-22T14:50:31Z",
       "visits": [
         {
           "shipmentIndex": 14,
-          "startTime": "2022-08-23T13:09:37Z",
+          "startTime": "2022-08-22T13:09:37Z",
           "demands": [
             {
               "type": "weight",
@@ -8519,7 +8519,7 @@
         },
         {
           "shipmentIndex": 152,
-          "startTime": "2022-08-23T13:21:08Z",
+          "startTime": "2022-08-22T13:21:08Z",
           "demands": [
             {
               "type": "weight",
@@ -8542,7 +8542,7 @@
         },
         {
           "shipmentIndex": 192,
-          "startTime": "2022-08-23T13:22:14Z",
+          "startTime": "2022-08-22T13:22:14Z",
           "demands": [
             {
               "type": "weight",
@@ -8565,7 +8565,7 @@
         },
         {
           "shipmentIndex": 193,
-          "startTime": "2022-08-23T13:25:43Z",
+          "startTime": "2022-08-22T13:25:43Z",
           "demands": [
             {
               "type": "weight",
@@ -8588,7 +8588,7 @@
         },
         {
           "shipmentIndex": 203,
-          "startTime": "2022-08-23T13:27:16Z",
+          "startTime": "2022-08-22T13:27:16Z",
           "demands": [
             {
               "type": "weight",
@@ -8611,7 +8611,7 @@
         },
         {
           "shipmentIndex": 73,
-          "startTime": "2022-08-23T13:35:05Z",
+          "startTime": "2022-08-22T13:35:05Z",
           "demands": [
             {
               "type": "weight",
@@ -8634,7 +8634,7 @@
         },
         {
           "shipmentIndex": 186,
-          "startTime": "2022-08-23T13:38:10Z",
+          "startTime": "2022-08-22T13:38:10Z",
           "demands": [
             {
               "type": "weight",
@@ -8657,7 +8657,7 @@
         },
         {
           "shipmentIndex": 1,
-          "startTime": "2022-08-23T13:46:32Z",
+          "startTime": "2022-08-22T13:46:32Z",
           "demands": [
             {
               "type": "weight",
@@ -8680,7 +8680,7 @@
         },
         {
           "shipmentIndex": 215,
-          "startTime": "2022-08-23T13:47:42Z",
+          "startTime": "2022-08-22T13:47:42Z",
           "demands": [
             {
               "type": "weight",
@@ -8703,7 +8703,7 @@
         },
         {
           "shipmentIndex": 132,
-          "startTime": "2022-08-23T13:53:21Z",
+          "startTime": "2022-08-22T13:53:21Z",
           "demands": [
             {
               "type": "weight",
@@ -8726,7 +8726,7 @@
         },
         {
           "shipmentIndex": 107,
-          "startTime": "2022-08-23T13:59:17Z",
+          "startTime": "2022-08-22T13:59:17Z",
           "demands": [
             {
               "type": "weight",
@@ -8749,7 +8749,7 @@
         },
         {
           "shipmentIndex": 30,
-          "startTime": "2022-08-23T14:04:34Z",
+          "startTime": "2022-08-22T14:04:34Z",
           "demands": [
             {
               "type": "weight",
@@ -8772,7 +8772,7 @@
         },
         {
           "shipmentIndex": 182,
-          "startTime": "2022-08-23T14:06:16Z",
+          "startTime": "2022-08-22T14:06:16Z",
           "demands": [
             {
               "type": "weight",
@@ -8795,7 +8795,7 @@
         },
         {
           "shipmentIndex": 212,
-          "startTime": "2022-08-23T14:09:41Z",
+          "startTime": "2022-08-22T14:09:41Z",
           "demands": [
             {
               "type": "weight",
@@ -8818,7 +8818,7 @@
         },
         {
           "shipmentIndex": 116,
-          "startTime": "2022-08-23T14:17:02Z",
+          "startTime": "2022-08-22T14:17:02Z",
           "demands": [
             {
               "type": "weight",
@@ -8841,7 +8841,7 @@
         },
         {
           "shipmentIndex": 179,
-          "startTime": "2022-08-23T14:24:14Z",
+          "startTime": "2022-08-22T14:24:14Z",
           "demands": [
             {
               "type": "weight",
@@ -8864,7 +8864,7 @@
         },
         {
           "shipmentIndex": 139,
-          "startTime": "2022-08-23T14:24:16Z",
+          "startTime": "2022-08-22T14:24:16Z",
           "demands": [
             {
               "type": "weight",
@@ -8887,7 +8887,7 @@
         },
         {
           "shipmentIndex": 6,
-          "startTime": "2022-08-23T14:29:29Z",
+          "startTime": "2022-08-22T14:29:29Z",
           "demands": [
             {
               "type": "weight",
@@ -8910,7 +8910,7 @@
         },
         {
           "shipmentIndex": 26,
-          "startTime": "2022-08-23T14:31:30Z",
+          "startTime": "2022-08-22T14:31:30Z",
           "demands": [
             {
               "type": "weight",
@@ -8933,7 +8933,7 @@
         },
         {
           "shipmentIndex": 210,
-          "startTime": "2022-08-23T14:34:51Z",
+          "startTime": "2022-08-22T14:34:51Z",
           "demands": [
             {
               "type": "weight",
@@ -8961,7 +8961,7 @@
           "travelDistanceMeters": 4284.0,
           "waitDuration": "0s",
           "totalDuration": "577s",
-          "startTime": "2022-08-23T13:00:00Z",
+          "startTime": "2022-08-22T13:00:00Z",
           "vehicleLoads": {
             "weight": {
               "amount": "20"
@@ -8973,7 +8973,7 @@
           "travelDistanceMeters": 6447.0,
           "waitDuration": "0s",
           "totalDuration": "691s",
-          "startTime": "2022-08-23T13:09:37Z",
+          "startTime": "2022-08-22T13:09:37Z",
           "vehicleLoads": {
             "weight": {
               "amount": "19"
@@ -8985,7 +8985,7 @@
           "travelDistanceMeters": 395.0,
           "waitDuration": "0s",
           "totalDuration": "66s",
-          "startTime": "2022-08-23T13:21:08Z",
+          "startTime": "2022-08-22T13:21:08Z",
           "vehicleLoads": {
             "weight": {
               "amount": "18"
@@ -8997,7 +8997,7 @@
           "travelDistanceMeters": 1103.0,
           "waitDuration": "0s",
           "totalDuration": "209s",
-          "startTime": "2022-08-23T13:22:14Z",
+          "startTime": "2022-08-22T13:22:14Z",
           "vehicleLoads": {
             "weight": {
               "amount": "17"
@@ -9009,7 +9009,7 @@
           "travelDistanceMeters": 629.0,
           "waitDuration": "0s",
           "totalDuration": "93s",
-          "startTime": "2022-08-23T13:25:43Z",
+          "startTime": "2022-08-22T13:25:43Z",
           "vehicleLoads": {
             "weight": {
               "amount": "16"
@@ -9021,7 +9021,7 @@
           "travelDistanceMeters": 3772.0,
           "waitDuration": "0s",
           "totalDuration": "469s",
-          "startTime": "2022-08-23T13:27:16Z",
+          "startTime": "2022-08-22T13:27:16Z",
           "vehicleLoads": {
             "weight": {
               "amount": "15"
@@ -9033,7 +9033,7 @@
           "travelDistanceMeters": 1474.0,
           "waitDuration": "0s",
           "totalDuration": "185s",
-          "startTime": "2022-08-23T13:35:05Z",
+          "startTime": "2022-08-22T13:35:05Z",
           "vehicleLoads": {
             "weight": {
               "amount": "14"
@@ -9045,7 +9045,7 @@
           "travelDistanceMeters": 3763.0,
           "waitDuration": "0s",
           "totalDuration": "502s",
-          "startTime": "2022-08-23T13:38:10Z",
+          "startTime": "2022-08-22T13:38:10Z",
           "vehicleLoads": {
             "weight": {
               "amount": "13"
@@ -9057,7 +9057,7 @@
           "travelDistanceMeters": 464.0,
           "waitDuration": "0s",
           "totalDuration": "70s",
-          "startTime": "2022-08-23T13:46:32Z",
+          "startTime": "2022-08-22T13:46:32Z",
           "vehicleLoads": {
             "weight": {
               "amount": "12"
@@ -9069,7 +9069,7 @@
           "travelDistanceMeters": 3095.0,
           "waitDuration": "0s",
           "totalDuration": "339s",
-          "startTime": "2022-08-23T13:47:42Z",
+          "startTime": "2022-08-22T13:47:42Z",
           "vehicleLoads": {
             "weight": {
               "amount": "11"
@@ -9081,7 +9081,7 @@
           "travelDistanceMeters": 1448.0,
           "waitDuration": "0s",
           "totalDuration": "356s",
-          "startTime": "2022-08-23T13:53:21Z",
+          "startTime": "2022-08-22T13:53:21Z",
           "vehicleLoads": {
             "weight": {
               "amount": "10"
@@ -9093,7 +9093,7 @@
           "travelDistanceMeters": 1141.0,
           "waitDuration": "0s",
           "totalDuration": "317s",
-          "startTime": "2022-08-23T13:59:17Z",
+          "startTime": "2022-08-22T13:59:17Z",
           "vehicleLoads": {
             "weight": {
               "amount": "9"
@@ -9105,7 +9105,7 @@
           "travelDistanceMeters": 334.0,
           "waitDuration": "0s",
           "totalDuration": "102s",
-          "startTime": "2022-08-23T14:04:34Z",
+          "startTime": "2022-08-22T14:04:34Z",
           "vehicleLoads": {
             "weight": {
               "amount": "8"
@@ -9117,7 +9117,7 @@
           "travelDistanceMeters": 917.0,
           "waitDuration": "0s",
           "totalDuration": "205s",
-          "startTime": "2022-08-23T14:06:16Z",
+          "startTime": "2022-08-22T14:06:16Z",
           "vehicleLoads": {
             "weight": {
               "amount": "7"
@@ -9129,7 +9129,7 @@
           "travelDistanceMeters": 2405.0,
           "waitDuration": "0s",
           "totalDuration": "441s",
-          "startTime": "2022-08-23T14:09:41Z",
+          "startTime": "2022-08-22T14:09:41Z",
           "vehicleLoads": {
             "weight": {
               "amount": "6"
@@ -9141,7 +9141,7 @@
           "travelDistanceMeters": 2582.0,
           "waitDuration": "0s",
           "totalDuration": "432s",
-          "startTime": "2022-08-23T14:17:02Z",
+          "startTime": "2022-08-22T14:17:02Z",
           "vehicleLoads": {
             "weight": {
               "amount": "5"
@@ -9153,7 +9153,7 @@
           "travelDistanceMeters": 6.0,
           "waitDuration": "0s",
           "totalDuration": "2s",
-          "startTime": "2022-08-23T14:24:14Z",
+          "startTime": "2022-08-22T14:24:14Z",
           "vehicleLoads": {
             "weight": {
               "amount": "4"
@@ -9165,7 +9165,7 @@
           "travelDistanceMeters": 2523.0,
           "waitDuration": "0s",
           "totalDuration": "313s",
-          "startTime": "2022-08-23T14:24:16Z",
+          "startTime": "2022-08-22T14:24:16Z",
           "vehicleLoads": {
             "weight": {
               "amount": "3"
@@ -9177,7 +9177,7 @@
           "travelDistanceMeters": 622.0,
           "waitDuration": "0s",
           "totalDuration": "121s",
-          "startTime": "2022-08-23T14:29:29Z",
+          "startTime": "2022-08-22T14:29:29Z",
           "vehicleLoads": {
             "weight": {
               "amount": "2"
@@ -9189,7 +9189,7 @@
           "travelDistanceMeters": 2566.0,
           "waitDuration": "0s",
           "totalDuration": "201s",
-          "startTime": "2022-08-23T14:31:30Z",
+          "startTime": "2022-08-22T14:31:30Z",
           "vehicleLoads": {
             "weight": {
               "amount": "1"
@@ -9201,7 +9201,7 @@
           "travelDistanceMeters": 11519.0,
           "waitDuration": "0s",
           "totalDuration": "940s",
-          "startTime": "2022-08-23T14:34:51Z",
+          "startTime": "2022-08-22T14:34:51Z",
           "vehicleLoads": {
             "weight": {}
           }
@@ -9315,12 +9315,12 @@
       ],
       "vehicleDetour": "6631s",
       "routeCosts": {
-        "model.vehicles.cost_per_traveled_hour": 55.25833333333333
+        "model.vehicles.cost_per_traveled_hour": 36.83888888888889
       },
-      "routeTotalCost": 55.25833333333333
+      "routeTotalCost": 36.83888888888889
     }
   ],
-  "totalCost": 770.3333333333334,
+  "totalCost": 513.5555555555555,
   "metrics": {
     "aggregatedRouteMetrics": {
       "performedShipmentCount": 224,
@@ -9330,7 +9330,7 @@
       "breakDuration": "0s",
       "visitDuration": "0s",
       "totalDuration": "104133s",
-      "travelDistanceMeters": 827227.0,
+      "travelDistanceMeters": 826603.0,
       "maxLoads": {
         "weight": {
           "amount": "20"
@@ -9338,11 +9338,11 @@
       }
     },
     "usedVehicleCount": 12,
-    "earliestVehicleStartTime": "2022-08-23T13:00:00Z",
-    "latestVehicleEndTime": "2022-08-23T16:59:31Z",
-    "totalCost": 770.3333333333334,
+    "earliestVehicleStartTime": "2022-08-22T13:00:00Z",
+    "latestVehicleEndTime": "2022-08-22T16:59:31Z",
+    "totalCost": 513.5555555555555,
     "costs": {
-      "model.vehicles.cost_per_traveled_hour": 770.3333333333334
+      "model.vehicles.cost_per_traveled_hour": 513.5555555555555
     }
   }
 }
